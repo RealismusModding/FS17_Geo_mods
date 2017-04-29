@@ -7,13 +7,22 @@
 -- Copyright (c) Realismus Modding, 2017
 ----------------------------------------------------------------------------------------------------
 
-local modDir = g_currentModDirectory
-local latitude = 65.4
+local geoMod = {}
+geoMod.modDir = g_currentModDirectory
+geoMod.latitude = 65.4
 
 function g_rm_seasons_load(seasons)
-    -- Overwrite load function to replace latitude in any savegame
-    g_seasons.environment.load = Utils.appendedFunction(g_seasons.environment.load, function (self) self.latitude = latitude; print("Hello World from load function!") end)
-
     -- Load data from data/ folder
-    g_seasons:registerXMLDirectory("northernsweden", modDir .. "data/")
+    g_seasons:registerXMLDirectory("northernsweden", geoMod.modDir .. "data/")
 end
+
+function geoMod.daylightLoad(daylight)
+    daylight.latitude = geoMod.latitude
+end
+
+function geoMod:loadMap()
+    -- Overwrite load function to replace latitude in any savegame
+    g_seasons.daylight.load = Utils.appendedFunction(g_seasons.daylight.load, geoMod.daylightLoad)
+end
+
+FSBaseMission.loadMap = Utils.prependedFunction(FSBaseMission.loadMap, geoMod.loadMap)
