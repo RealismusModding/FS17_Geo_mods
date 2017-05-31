@@ -2,75 +2,91 @@
 -- WEATHER DATA
 ----------------------------------------------------------------------------------------------------
 -- Purpose:  Weather
--- Authors:  Baron
+-- Authors:  baron
 --
 -- Copyright (c) Realismus Modding, 2017
 --------------------------------------------------------------------------------------------------->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <startValues>
+        <soilTemp>-4</soilTemp>
+        <highAirTemp>-5</highAirTemp>
+        <snowDepth>0.3</snowDepth>
+    </startValues>
+    <!--------------------------------------------------------------------------------------------------
+    -- Temperature data is extracted from:
+    -- http://www.smhi.se/klimatdata/meteorologi/temperatur 
+    -- using "Dygnets maxtemperatur" (average day max) as p.mode
+    --------------------------------------------------------------------------------------------------->
     <temperature>
         <p period="1">
-            <min value="-11.0" />
-            <mode value="-6.0" />
-            <max value="-2.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-2.5" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="2">
-            <min value="-5.0" />
-            <mode value="0.2" />
-            <max value="3.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="3.0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="3">
-            <min value="-1" />
-            <mode value="5.8" />
-            <max value="9.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="9.0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="4">
-            <min value="6.0" />
-            <mode value="10.2" />
-            <max value="16.5" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="16.5" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="5">
-            <min value="7.0" />
-            <mode value="12.5" />
-            <max value="17.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="17.0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="6">
-            <min value="6.5" />
-            <mode value="11.0" />
-            <max value="15.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="15.0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="7">
-            <min value="2.6" />
-            <mode value="6.2" />
-            <max value="8.2" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="8.2" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="8">
-            <min value="-2.4" />
-            <mode value="0.9" />
-            <max value="3.0" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="3.0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="9">
-            <min value="-7.8" />
-            <mode value="-5.8" />
-            <max value="-2.9" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-2.9" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="10">
-            <min value="-13.4" />
-            <mode value="-9.5" />
-            <max value="-6.1" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-6.1" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="11">
-            <min value="-22.3" />
-            <mode value="-10.6" />
-            <max value="-7.8" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-7.8" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
         <p period="12">
-            <min value="-18.6" />
-            <mode value="-10.0" />
-            <max value="-5.9" />
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-5.9" />
+            <max value="0" />         <!-- unused in seasons V1 -->
         </p>
     </temperature>
+    <!--------------------------------------------------------------------------------------------------
+    -- Rain and cloud probabilities were found at
+    -- http://data.smhi.se/met/climate/time_series/month/vov_pdf/
+    -- using "Antal nederbördsdagar" (number of rainy days) 
+    -- per month divided by days in month averaged over months in season
+    --------------------------------------------------------------------------------------------------->
     <rain>
         <s season="0">
             <mu value="1.1" />
