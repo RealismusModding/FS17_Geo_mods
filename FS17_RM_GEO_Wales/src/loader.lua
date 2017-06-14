@@ -12,5 +12,5 @@ geoMod.modDir = g_currentModDirectory
 
 function g_rm_seasons_load(seasons)
     -- Load data from data/ folder
-    g_seasons:registerXMLDirectory("northernsweden", geoMod.modDir .. "data/")
+    g_seasons:registerXMLDirectory("wales", geoMod.modDir .. "data/")
 end
