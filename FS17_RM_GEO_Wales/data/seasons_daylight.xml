@@ -2,12 +2,12 @@
 -- DAYLIGHT DATA
 ----------------------------------------------------------------------------------------------------
 -- Purpose:  Daylight adjustments
--- Authors:  Rahkiin
+-- Authors:  reallogger
 --
 -- Copyright (c) Realismus Modding, 2017
 --------------------------------------------------------------------------------------------------->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <daylight>
-    <latitude>65.4</latitude>
+    <latitude>52.8</latitude>
 </daylight>

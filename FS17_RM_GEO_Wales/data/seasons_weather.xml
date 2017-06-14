@@ -1,8 +1,8 @@
 <!--------------------------------------------------------------------------------------------------
 -- WEATHER DATA
 ----------------------------------------------------------------------------------------------------
--- Purpose:  Weather
--- Authors:  baron
+-- Purpose:  Weather data for northwest Wales
+-- Authors:  reallogger
 --
 -- Copyright (c) Realismus Modding, 2017
 --------------------------------------------------------------------------------------------------->
@@ -10,110 +10,110 @@
 
 <weather>
     <startValues>
-        <soilTemp>-4</soilTemp>
-        <highAirTemp>-5</highAirTemp>
-        <snowDepth>0.3</snowDepth>
+        <soilTemp>6</soilTemp>
+        <highAirTemp>8</highAirTemp>
+        <snowDepth>0</snowDepth>
     </startValues>
+
     <!--------------------------------------------------------------------------------------------------
     -- Temperature data is extracted from:
-    -- http://www.smhi.se/klimatdata/meteorologi/temperatur 
-    -- using "Dygnets maxtemperatur" (average day max) as p.mode
+    -- www.metoffice.gov.uk 
     --------------------------------------------------------------------------------------------------->
     <temperature>
         <p period="1">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-2.5" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="6.9" />
+            <mode value="10.0" />
+            <max value="11.9" />
         </p>
         <p period="2">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="3.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="10.4" />
+            <mode value="12.2" />
+            <max value="14.9" />
         </p>
         <p period="3">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="9.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="13.1" />
+            <mode value="14.8" />
+            <max value="17.7" />
         </p>
         <p period="4">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="16.5" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="15.6" />
+            <mode value="17.4" />
+            <max value="19.7" />
         </p>
         <p period="5">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="17.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="16.7" />
+            <mode value="18.8" />
+            <max value="22.0" />
         </p>
         <p period="6">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="15.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="17.6" />
+            <mode value="18.7" />
+            <max value="21.8" />
         </p>
         <p period="7">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="8.2" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="16.0" />
+            <mode value="17.4" />
+            <max value="19.1" />
         </p>
         <p period="8">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="3.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="13.1" />
+            <mode value="14.6" />
+            <max value="15.9" />
         </p>
         <p period="9">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-2.9" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="9.4" />
+            <mode value="11.5" />
+            <max value="13.4" />
         </p>
         <p period="10">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-6.1" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="5.2" />
+            <mode value="9.1" />
+            <max value="12.3" />
         </p>
         <p period="11">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-7.8" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="5.9" />
+            <mode value="8.3" />
+            <max value="9.9" />
         </p>
         <p period="12">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-5.9" />
-            <max value="0" />         <!-- unused in seasons V1 -->
+            <min value="6.9" />
+            <mode value="8.5" />
+            <max value="9.9" />
         </p>
     </temperature>
+    
     <!--------------------------------------------------------------------------------------------------
-    -- Rain and cloud probabilities were found at
-    -- http://data.smhi.se/met/climate/time_series/month/vov_pdf/
-    -- using "Antal nederbördsdagar" (number of rainy days) 
-    -- per month divided by days in month averaged over months in season
+    -- Daily probability for rain and clouds taken from www.weatherspark.com
+    -- Probability distribution parameters for precipitation duration processed based on data from www.metoffice.gov.uk 
     --------------------------------------------------------------------------------------------------->
+    
     <rain>
         <s season="0">
-            <mu value="1.1" />
-            <sigma value="0.2" />
-            <probRain value="0.30" />
-            <probClouds value="0.55" />
+            <mu value="1.8" />
+            <sigma value="0.15" />
+            <probRain value="0.39" />
+            <probClouds value="0.59" />
             <probHail value="0.05" />
         </s>
         <s season="1">
-            <mu value="0.7" />
-            <sigma value="0.1" />
-            <probRain value="0.15" />
-            <probClouds value="0.30" />
+            <mu value="1.2" />
+            <sigma value="0.15" />
+            <probRain value="0.27" />
+            <probClouds value="0.47" />
             <probHail value="0.10" />
         </s>
         <s season="2">
-            <mu value="1.2" />
-            <sigma value="0.25" />
-            <probRain value="0.50" />
-            <probClouds value="0.65" />
+            <mu value="1.6" />
+            <sigma value="0.18" />
+            <probRain value="0.39" />
+            <probClouds value="0.59" />
             <probHail value="0.10" />
         </s>
         <s season="3">
-            <mu value="1.6" />
-            <sigma value="0.25" />
-            <probRain value="0.60" />
-            <probClouds value="0.70" />
+            <mu value="2.1" />
+            <sigma value="0.15" />
+            <probRain value="0.51" />
+            <probClouds value="0.69" />
             <probHail value="0.01" />
         </s>
     </rain>
