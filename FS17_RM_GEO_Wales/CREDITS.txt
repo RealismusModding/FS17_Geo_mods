@@ -1,4 +1,4 @@
 CREDITS
 ===================
 
-Weather XML -- baleBaron
+Weather XML -- reallogger
