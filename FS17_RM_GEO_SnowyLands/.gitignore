@@ -1,0 +1,13 @@
+# System stuff
+__pycache__
+.DS_STORE
+
+# Editors
+*.sublime-workspace
+*.sublime-project
+
+# Build system
+dist/
+.buildrc
+*.zip
+node_modules/
