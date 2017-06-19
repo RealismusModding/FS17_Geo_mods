@@ -1,5 +1,5 @@
 CREDITS
 ===================
 
-Translators
+## Translations
 Hungarian - n0tr3adY
