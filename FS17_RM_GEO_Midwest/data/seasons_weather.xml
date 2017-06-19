@@ -1,0 +1,115 @@
+<!--------------------------------------------------------------------------------------------------
+-- WEATHER DATA
+----------------------------------------------------------------------------------------------------
+-- Purpose:  Weather for Antarctica
+-- Authors:  reallogger
+--
+-- Copyright (c) Realismus Modding, 2017
+--------------------------------------------------------------------------------------------------->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<weather>
+    <startValues>
+        <soilTemp>-10</soilTemp>
+        <highAirTemp>-15</highAirTemp>
+        <snowDepth>0.3</snowDepth>
+    </startValues>
+    <temperature>
+        <p period="1">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-18" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="2">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-13" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="3">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-7" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="4">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="0" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="5">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="1" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="6">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-1" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="7">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-6" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="8">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-13" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="9">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-19" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="10">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-22" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="11">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-24" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+        <p period="12">
+            <min value="0" />         <!-- unused in seasons V1 -->
+            <mode value="-21" />
+            <max value="0" />         <!-- unused in seasons V1 -->
+        </p>
+    </temperature>
+    <!--------------------------------------------------------------------------------------------------
+    -- Rain and cloud probabilities were found at
+    -- http://data.smhi.se/met/climate/time_series/month/vov_pdf/
+    -- using "Antal nederbördsdagar" (number of rainy days)
+    -- per month divided by days in month averaged over months in season
+    --------------------------------------------------------------------------------------------------->
+    <rain>
+        <s season="0">
+            <mu value="1.1" />
+            <sigma value="0.2" />
+            <probRain value="0.19" />
+            <probClouds value="0.65" />
+            <probHail value="0.0" />
+        </s>
+        <s season="1">
+            <mu value="0.7" />
+            <sigma value="0.1" />
+            <probRain value="0.38" />
+            <probClouds value="0.52" />
+            <probHail value="0.0" />
+        </s>
+        <s season="2">
+            <mu value="1.2" />
+            <sigma value="0.25" />
+            <probRain value="0.28" />
+            <probClouds value="0.65" />
+            <probHail value="0.0" />
+        </s>
+        <s season="3">
+            <mu value="1.6" />
+            <sigma value="0.24" />
+            <probRain value="0.60" />
+            <probClouds value="0.77" />
+            <probHail value="0.0" />
+        </s>
+    </rain>
+</weather>
