@@ -22,6 +22,8 @@ function geoMod:setup()
     for _, listener in ipairs(g_seasons.environment.visualSeasonChangeListeners) do
         listener:visualSeasonChanged(newVisuals)
     end
+
+    g_seasons.snow.mode = g_seasons.snow.MODE_ON
 end
 
 function geoMod:calculateVisualSeason(superFunc)
