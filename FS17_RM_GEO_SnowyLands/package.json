@@ -1,18 +1,18 @@
 {
-  "name": "FS17_RM_GEO_Antarctica",
+  "name": "FS17_RM_GEO_SnowyLands",
   "version": "1.0.0",
-  "description": "Seasons GEO Mod for Antarctica",
+  "description": "Seasons GEO Mod for Snowy Lands",
   "main": "src/loader.lua",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/realismusmodding/FS17_RM_GEO_Antarctica.git"
+    "url": "git+https://bitbucket.org/realismusmodding/FS17_RM_GEO_SnowyLands.git"
   },
   "author": "Realismus Modding",
   "license": "",
   "bugs": {
-    "url": "https://github.com/RealismusModding/FS17_RM_GEO_Antarctica/issues"
+    "url": "https://github.com/RealismusModding/FS17_RM_GEO_SnowyLands/issues"
   },
-  "homepage": "https://github.com/RealismusModding/FS17_RM_GEO_Antarctica#readme",
+  "homepage": "https://github.com/RealismusModding/FS17_RM_GEO_SnowyLands#readme",
   "dependencies": {
     "del": "^2.2.2",
     "git-rev-sync": "^1.8.0",
@@ -36,7 +36,7 @@
   },
   "fs": {
     "modDescRev": "37",
-    "modZipName": "FS17_RM_GEO_Antarctica",
+    "modZipName": "FS17_RM_GEO_SnowyLands",
     "simpleVersion": 1
   }
 }
