@@ -10,6 +10,18 @@
 
 <growth overwrite="true">
     <defaultFruits>
+        <defaultFruit fruitName="barley" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="wheat" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="rape" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="maize" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="soybean" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="sunflower" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="potato" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="sugarBeet" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="poplar" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="grass" maxSprayGrowthState="4"/>
+        <defaultFruit fruitName="oilseedRadish" />
+        <defaultFruit fruitName="dryGrass" />
     </defaultFruits>
     <growthTransitions>
         <gt growthTransitionNum="1"> <!--late winter to early spring-->
@@ -39,5 +51,16 @@
     </growthTransitions>
 
     <germination>
+        <fruit fruitName="barley" germinateTemp="5" />
+        <fruit fruitName="wheat" germinateTemp="5" />
+        <fruit fruitName="rape" germinateTemp="5" />
+        <fruit fruitName="maize" germinateTemp="10" />
+        <fruit fruitName="soybean" germinateTemp="10" />
+        <fruit fruitName="sunflower" germinateTemp="7" />
+        <fruit fruitName="potato" germinateTemp="5" />
+        <fruit fruitName="sugarBeet" germinateTemp="5" />
+        <fruit fruitName="grass" germinateTemp="3" />
+        <fruit fruitName="oilseedRadish" germinateTemp="7" />
+        <fruit fruitName="poplar" germinateTemp="5" />
     </germination>
 </growth>
