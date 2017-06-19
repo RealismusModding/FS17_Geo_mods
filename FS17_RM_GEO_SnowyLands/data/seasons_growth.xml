@@ -47,6 +47,17 @@
         <gt growthTransitionNum="11"/> <!--early winter to mid winter-->
         <gt growthTransitionNum="12"/> <!--mid winter to late winter-->
         <gt growthTransitionNum="FIRST_LOAD_TRANSITION">
+            <fruit fruitName="barley" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="wheat" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="rape" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="maize" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="soybean" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="sunflower" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="potato" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="sugarBeet" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="poplar" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
+            <fruit fruitName="grass" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="1"/>
+            <fruit fruitName="oilseedRadish" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT"/>
         </gt>
     </growthTransitions>
 
