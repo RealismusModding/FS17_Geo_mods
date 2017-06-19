@@ -1,2 +1,5 @@
 CREDITS
 ===================
+
+Translators
+Hungarian - n0tr3adY
