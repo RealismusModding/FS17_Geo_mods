@@ -20,7 +20,7 @@ function geoMod:setup()
     g_seasons.environment.latestVisualSeason = g_seasons.environment.SEASON_WINTER
 
     for _, listener in ipairs(g_seasons.environment.visualSeasonChangeListeners) do
-        listener:visualSeasonChanged(newVisuals)
+        listener:visualSeasonChanged(g_seasons.environment.latestVisualSeason)
     end
 
     g_seasons.snow.mode = g_seasons.snow.MODE_ON
