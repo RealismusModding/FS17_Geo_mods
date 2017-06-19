@@ -6,10 +6,16 @@
 
     <title>
         <en>Seasons Geo: Snowy Lands</en>
+        <de>Seasons Geo: Snowy Lands</de>
+        <fr>Seasons Geo: Snowy Lands</fr>
     </title>
 
     <description>
-        <en>Seasons Geo: Snowy Lands</en>
+        <en><![CDATA[Is it time to take a break from farming and have a winter holiday? Then go to Snowy Lands!
+
+Snowy Lands is a GEO mod that has eternal winter and high snow. Drive around in your truck or tractor, slipping over the roads, or draw snow circles.
+
+Enjoy your holiday!]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
@@ -21,7 +27,4 @@
     <extraSourceFiles>
         <sourceFile filename="src/loader.lua"/>
     </extraSourceFiles>
-
-    <inputBindings>
-    </inputBindings>
 </modDesc>
