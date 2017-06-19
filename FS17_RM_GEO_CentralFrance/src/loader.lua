@@ -17,11 +17,9 @@ end
 
 function geoMod:setup()
     g_seasons.environment.calculateVisualSeason = Utils.overwrittenFunction(g_seasons.environment.calculateVisualSeason, geoMod.calculateVisualSeason)
-    g_seasons.environment.latestVisualSeason = g_seasons.environment.SEASON_WINTER
 
-    for _, listener in ipairs(g_seasons.environment.visualSeasonChangeListeners) do
-        listener:visualSeasonChanged(g_seasons.environment.latestVisualSeason)
-    end
+    -- Run the visual season listeners
+    g_seasons.environment:callListeners()
 
     g_seasons.snow.mode = g_seasons.snow.MODE_ON
 end
