@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="33">
     <author>Realismus Modding</author>
-    <contributors>Rahkiin, reallogger</contributors>
+    <contributors>reallogger</contributors>
     <version>1.0.0.0</version>
 
     <title>
@@ -9,7 +9,9 @@
     </title>
 
     <description>
-        <en>Seasons Geo: Wales</en>
+        <en><![CDATA[
+
+            ]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
@@ -21,7 +23,4 @@
     <extraSourceFiles>
         <sourceFile filename="src/loader.lua"/>
     </extraSourceFiles>
-
-    <inputBindings>
-    </inputBindings>
 </modDesc>
