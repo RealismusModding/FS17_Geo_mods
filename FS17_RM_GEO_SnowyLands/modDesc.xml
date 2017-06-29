@@ -37,8 +37,6 @@ Genieße Deinen Urlaub!]]></de>
 
     <multiplayer supported="true"/>
 
-    <l10n filenamePrefix="translations/translation"/>
-
     <extraSourceFiles>
         <sourceFile filename="src/loader.lua"/>
     </extraSourceFiles>
