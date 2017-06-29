@@ -20,7 +20,8 @@
 
     <l10n filenamePrefix="translations/translation"/>
 
-    <extraSourceFiles>
-        <sourceFile filename="src/loader.lua"/>
-    </extraSourceFiles>
+    <seasons version="2">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
 </modDesc>
