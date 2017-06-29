@@ -11,7 +11,7 @@
     </title>
 
     <description>
-        <en><![CDATA[Do you want to experience farming in the productive soils of the U.S. known as the Corn Belt? 
+        <en><![CDATA[Do you want to experience farming in the productive soils of the U.S. known as the Corn Belt?
 
 Enjoy the weather and growth of one of the most intensely farmed regions in the world.]]></en>
     </description>
@@ -22,7 +22,8 @@ Enjoy the weather and growth of one of the most intensely farmed regions in the 
 
     <l10n filenamePrefix="translations/translation"/>
 
-    <extraSourceFiles>
-        <sourceFile filename="src/loader.lua"/>
-    </extraSourceFiles>
+    <seasons version="2">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
 </modDesc>
