@@ -5,32 +5,15 @@
     <version>1.0.0.0</version>
 
     <title>
-        <en>Seasons Geo: Snowy Lands</en>
-        <de>Seasons Geo: Snowy Lands</de>
-        <fr>Seasons Geo: Snowy Lands</fr>
+        <en>Seasons Geo: U.S. Midwest</en>
+        <de>Seasons Geo: U.S. Midwest</de>
+        <fr>Seasons Geo: U.S. Midwest</fr>
     </title>
 
     <description>
-        <en><![CDATA[Is it time to take a break from farming and have a winter holiday? Then go to Snowy Lands!
+        <en><![CDATA[Do you want to experience farming in the productive soils of the U.S. known as the Corn Belt? 
 
-Snowy Lands is a GEO mod that has eternal winter and high snow. Drive around in your truck or tractor, slipping over the roads, or draw snow circles.
-
-Enjoy your holiday!]]></en>
-        <hu><![CDATA[Itt az idő hogy pihentesd a gazdálkodást és élvezd a téli pihenőt? Akkor irány a Havas Táj!
-
-A Havas Táj egy GEO mod végtelen téllel és rengeteg hóval. Csúszkálj az utakon a traktoroddal és a gépeiddel, vagy akár rajzolj a hóba köröket.
-
-Élvezd a pihenőt!]]></hu>
-        <ru><![CDATA[Пришло время отдохнуть от сельского хозяйства и желаете где-то провести зимний отпуск? Отправляйтесь в Snowy Lands!
-
-Snowy Lands - это GEO-мод, который устанавливант вечную зиму и добавляет высокий снег. Проезжайте на своем грузовике или тракторе, подрифтуйте по дорогам или нарезайте снежные круги.
-
-Наслаждайтесь отдыхом!]]></ru>
-        <de><![CDATA[Es ist Zeit eine Pause von der Landwirtschaft zu machen und Du möchtest einen Winterurlaub verleben? Dann fahre zu Snowy Lands!
-
-Snowy Lands ist ein GEO Mod, der ewigen Winter und hohen Schnee hat. Fahre in Deinem LKW oder Traktor herum, rutsche über die Straßen oder ziehe Kreise im Schnee.
-
-Genieße Deinen Urlaub!]]></de>
+Enjoy the weather and growth of one of the most intensely farmed regions in the world.]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
