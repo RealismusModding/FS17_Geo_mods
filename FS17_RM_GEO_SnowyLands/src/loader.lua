@@ -8,12 +8,6 @@
 ----------------------------------------------------------------------------------------------------
 
 local geoMod = {}
-geoMod.modDir = g_currentModDirectory
-
-function g_rm_seasons_load(seasons)
-    -- Load data from data/ folder
-    g_seasons:registerXMLDirectory("snowylands", geoMod.modDir .. "data/")
-end
 
 function geoMod:setup()
     g_seasons.environment.calculateVisualSeason = Utils.overwrittenFunction(g_seasons.environment.calculateVisualSeason, geoMod.calculateVisualSeason)
