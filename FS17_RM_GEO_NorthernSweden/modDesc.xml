@@ -18,9 +18,10 @@
 
     <l10n filenamePrefix="translations/translation"/>
 
-    <extraSourceFiles>
-        <sourceFile filename="src/loader.lua"/>
-    </extraSourceFiles>
+    <seasons version="2">
+        <dataFolder>data/</dataFolder>
+        <type>geo</type>
+    </seasons>
 
     <inputBindings>
     </inputBindings>
