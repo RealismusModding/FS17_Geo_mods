@@ -20,8 +20,6 @@ Enjoy the weather and growth of one of the most intensely farmed regions in the 
 
     <multiplayer supported="true"/>
 
-    <l10n filenamePrefix="translations/translation"/>
-
     <seasons version="2">
         <type>geo</type>
         <dataFolder>data/</dataFolder>
