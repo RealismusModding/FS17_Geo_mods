@@ -16,8 +16,6 @@
 
     <multiplayer supported="true"/>
 
-    <l10n filenamePrefix="translations/translation"/>
-
     <seasons version="2">
         <dataFolder>data/</dataFolder>
         <type>geo</type>
