@@ -1,6 +1,5 @@
-Seasons GEO mod for Snowy Lands
+Seasons GEO mod for U.S. Midwest
 ===================================
 
-Do you want just snow, a lot of snow?
-
-Play like you are on holiday in a snowy winterland! Snow almost everyday, no growth at all.
+This GEO mod simulates weather and growth in the U.S. Midwest. 
+The weather is based on historical data from Princeton Missouri
