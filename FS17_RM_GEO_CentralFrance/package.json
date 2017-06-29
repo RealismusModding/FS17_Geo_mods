@@ -1,18 +1,18 @@
 {
-  "name": "FS17_RM_GEO_SnowyLands",
+  "name": "FS17_RM_GEO_Midwest",
   "version": "1.0.0",
-  "description": "Seasons GEO Mod for Snowy Lands",
+  "description": "Seasons GEO Mod for U.S. Midwest",
   "main": "src/loader.lua",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/realismusmodding/FS17_RM_GEO_SnowyLands.git"
+    "url": "git+https://bitbucket.org/realismusmodding/FS17_RM_GEO_Midwest.git"
   },
   "author": "Realismus Modding",
   "license": "",
   "bugs": {
-    "url": "https://github.com/RealismusModding/FS17_RM_GEO_SnowyLands/issues"
+    "url": "https://github.com/RealismusModding/FS17_RM_GEO_Midwest/issues"
   },
-  "homepage": "https://github.com/RealismusModding/FS17_RM_GEO_SnowyLands#readme",
+  "homepage": "https://github.com/RealismusModding/FS17_RM_GEO_Midwest#readme",
   "dependencies": {
     "del": "^2.2.2",
     "git-rev-sync": "^1.8.0",
@@ -36,7 +36,7 @@
   },
   "fs": {
     "modDescRev": "37",
-    "modZipName": "FS17_RM_GEO_SnowyLands",
+    "modZipName": "FS17_RM_GEO_Midwest",
     "simpleVersion": 1
   }
 }
