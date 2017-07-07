@@ -1,0 +1,121 @@
+<!--------------------------------------------------------------------------------------------------
+-- WEATHER DATA
+----------------------------------------------------------------------------------------------------
+-- Purpose:  Weather data for Central France (Orleans)
+-- Authors:  reallogger
+--
+-- Copyright (c) Realismus Modding, 2017
+--------------------------------------------------------------------------------------------------->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<weather>
+    <startValues>
+        <soilTemp>7</soilTemp>
+        <highAirTemp>8</highAirTemp>
+        <snowDepth>0</snowDepth>
+    </startValues>
+
+    <!--------------------------------------------------------------------------------------------------
+    -- Temperature data is extracted from:
+    -- http://www.historique-meteo.net
+    -- http://www.meteofrance.com
+    --------------------------------------------------------------------------------------------------->
+    <temperature>
+        <p period="1">
+            <min value="10.7" />
+            <mode value="12.1" />
+            <max value="13.7" />
+        </p>
+        <p period="2">
+            <min value="13.3" />
+            <mode value="15.1" />
+            <max value="16.8" />
+        </p>
+        <p period="3">
+            <min value="17.7" />
+            <mode value="19.1" />
+            <max value="19.7" />
+        </p>
+        <p period="4">
+            <min value="21.4" />
+            <mode value="22.6" />
+            <max value="23.9" />
+        </p>
+        <p period="5">
+            <min value="23.4" />
+            <mode value="25.4" />
+            <max value="27.4" />
+        </p>
+        <p period="6">
+            <min value="23.8" />
+            <mode value="25.2" />
+            <max value="26.8" />
+        </p>
+        <p period="7">
+            <min value="20.8" />
+            <mode value="21.3" />
+            <max value="22.5" />
+        </p>
+        <p period="8">
+            <min value="15.2" />
+            <mode value="16.4" />
+            <max value="17.7" />
+        </p>
+        <p period="9">
+            <min value="9.0" />
+            <mode value="10.4" />
+            <max value="12.0" />
+        </p>
+        <p period="10">
+            <min value="4.0" />
+            <mode value="7.0" />
+            <max value="9.5" />
+        </p>
+        <p period="11">
+            <min value="5.3" />
+            <mode value="6.7" />
+            <max value="8.3" />
+        </p>
+        <p period="12">
+            <min value="6.9" />
+            <mode value="7.9" />
+            <max value="8.9" />
+        </p>
+    </temperature>
+    
+    <!--------------------------------------------------------------------------------------------------
+    -- Daily probability for rain and clouds taken from www.weatherspark.com
+    -- 
+    --------------------------------------------------------------------------------------------------->
+    
+    <rain>
+        <s season="0">
+            <mu value="0.9" />
+            <sigma value="0.11" />
+            <probRain value="0.29" />
+            <probClouds value="0.55" />
+            <probHail value="0.05" />
+        </s>
+        <s season="1">
+            <mu value="1.7" />
+            <sigma value="0.21" />
+            <probRain value="0.18" />
+            <probClouds value="0.36" />
+            <probHail value="0.15" />
+        </s>
+        <s season="2">
+            <mu value="1.5" />
+            <sigma value="0.19" />
+            <probRain value="0.26" />
+            <probClouds value="0.55" />
+            <probHail value="0.10" />
+        </s>
+        <s season="3">
+            <mu value="1.2" />
+            <sigma value="0.15" />
+            <probRain value="0.30" />
+            <probClouds value="0.75" />
+            <probHail value="0.01" />
+        </s>
+    </rain>
+</weather>
