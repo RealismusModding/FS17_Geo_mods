@@ -1,4 +1,4 @@
-Seasons GEO mod for U.S. Midwest
+Seasons GEO mod for Central France
 ===================================
 
 This GEO mod simulates weather and growth in Central France. 
