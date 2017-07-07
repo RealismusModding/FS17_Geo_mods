@@ -5,15 +5,13 @@
     <version>1.0.0.0</version>
 
     <title>
-        <en>Seasons Geo: U.S. Midwest</en>
-        <de>Seasons Geo: U.S. Midwest</de>
-        <fr>Seasons Geo: U.S. Midwest</fr>
+        <en>Seasons Geo: Central France</en>
+        <de>Seasons Geo: Central France</de>
+        <fr>Seasons Geo: Central France</fr>
     </title>
 
     <description>
-        <en><![CDATA[Do you want to experience farming in the productive soils of the U.S. known as the Corn Belt?
-
-Enjoy the weather and growth of one of the most intensely farmed regions in the world.]]></en>
+        <en><![CDATA[Do you want to experience farming in the Loire Valley in Central France?]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
