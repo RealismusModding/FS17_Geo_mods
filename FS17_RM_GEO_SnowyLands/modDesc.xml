@@ -38,7 +38,7 @@ Genieße Deinen Urlaub!]]></de>
     <multiplayer supported="true"/>
 
     <extraSourceFiles>
-        <sourceFile filename="src/loader.lua"/>
+        <sourceFile filename="src/main.lua"/>
     </extraSourceFiles>
 
     <seasons version="2">

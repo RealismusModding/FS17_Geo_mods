@@ -2,7 +2,7 @@
   "name": "FS17_RM_GEO_SnowyLands",
   "version": "1.0.0",
   "description": "Seasons GEO Mod for Snowy Lands",
-  "main": "src/loader.lua",
+  "main": "src/main.lua",
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/realismusmodding/FS17_RM_GEO_SnowyLands.git"
