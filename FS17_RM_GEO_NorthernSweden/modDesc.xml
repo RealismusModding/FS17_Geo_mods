@@ -6,7 +6,7 @@
 
     <title>
         <en>Seasons Geo: Northern Sweden</en>
-        <de>Seasons Geo: Northern Sweden</de>
+        <de>Seasons Geo: Nord Schweden</de>
         <fr>Seasons Geo: Northern Sweden</fr>
     </title>
 
@@ -14,6 +14,9 @@
         <en><![CDATA[Discover the colder climate of northern Sweden. Enjoy longer and harsher winters with snow and colder soil temperatures.
 
 Northern Sweden is a GEO mod that simulates farming in subarctic regions. The latest version of the Seasons mod is required.]]></en>
+        <de><![CDATA[Entdecke das kalte Klima in Nord Schweden. Genieße längere und härtere Winter mit Schnee und kälteren Boden Temperaturen.
+
+Nord Schweden ist ein GEO mod welcher das Klima in einer Subarktischen Regionen simuliert. Die neuste Version des Seasons mod wird benötigt.]]></de>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
