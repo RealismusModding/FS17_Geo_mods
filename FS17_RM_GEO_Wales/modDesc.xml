@@ -6,12 +6,14 @@
 
     <title>
         <en>Seasons Geo: Wales</en>
+        <de>Seasons Geo: Wales</de>
+        <fr>Seasons Geo: Wales</fr>
     </title>
 
     <description>
-        <en><![CDATA[
+        <en><![CDATA[A mild wet climate characterizes the weather of Wales. With short amount of proper harvesting time and a lot of rainy days, you will have to plan carefully and work hard to keep your farm afloat.
 
-            ]]></en>
+Wales is a GEO mod for Seasons that simulates farming in Wales region. The latest version of the Seasons mod is required.]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
