@@ -10,12 +10,13 @@
         <fr>Seasons Geo: U.S. Midwest</fr>
     </title>
 
-    <description>
+   <description>
         <en><![CDATA[Do you want to experience farming in the productive soils of the U.S. known as the Corn Belt?
 
 Enjoy the weather and growth of one of the most intensely farmed regions in the world. Note that sugarbeet does not grow in this part of the world.]]></en>
-        <fr><![CDATA[Voulez-vous expérimenter un fermier dans les sols productifs des État-Unis plus connu sous le nom de ceinture de maïs?
-Profitez de la météo et de la croissance de l'une des régions les plus cultivées dans le monde.]]></fr>
+        <fr><![CDATA[Voulez-vous expérimenter l'agriculture dans les sols productifs des États-Unis, connus sous le nom de Corn Belt (Ceinture de Maïs)?
+        
+Profitez de la météo et de l'expansion de l'une des régions les plus cultivées dans le monde. Notez que la betterave à sucre ne se développe pas dans cette partie du monde.]]></fr>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
