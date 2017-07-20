@@ -7,7 +7,7 @@
     <title>
         <en>Seasons Geo: Wales</en>
         <de>Seasons Geo: Wales</de>
-        <fr>Seasons Geo: Wales</fr>
+        <fr>Seasons Geo: Pays de Galles</fr>
         <it>Seasons Geo: Wales</it>
     </title>
 
@@ -18,10 +18,12 @@ Wales is a GEO mod for Seasons that simulates farming in Wales region. The lates
         <de><![CDATA[Ein mild nasses Wetter ist charakteristisch für Wales. Mit einem kleinen Zeitraum für die Ernte und vielen Regentagen musst du gut planen und hart arbeiten um deinen Hof flott zu halten.
 
 Wales ist ein GEO mod welcher das Klima in Wales simuliert. Die neuste Version des Seasons mod wird benötigt.]]></de>
-
         <it><![CDATA[Un clima mite ed umido caratterizza il meteo del Galles. Con piccole finestre temporali per trebbiare e molti giorni piovosi, dovrai pianificare con cura e lavorare sodo per mantenere la tua farm attiva.
 
 Galles è una GEO mod per Seasons che simula l'agricoltura nelle regioni inglesi del Galles. È richiesta l'ultima versione della Seasons Mod.]]></it>
+        <fr><![CDATA[Un climat doux et humide caractérise la météo du Pays de Galles. Avec un temps court pour les récoltes et beaucoup de jours pluvieux, vous devrez planifier soigneusement et travailler dur pour garder votre ferme à flot.
+
+Le Pays de Galles est un mod GEO pour Seasons qui simule l'agriculture dans la région du Pays de Galles. La dernière version du mod Seasons est nécessaire.]]></fr>
     </description>
 
     <iconFilename>icon.dds</iconFilename>

@@ -5,4 +5,5 @@ Weather XML -- reallogger
 
 Translations
 German - Blaggy
-Italian - turbostar
+Italian - *TurboStar*
+French - farmer1602
