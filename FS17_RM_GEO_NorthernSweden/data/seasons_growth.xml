@@ -75,7 +75,7 @@ Adjustments has been made to have growth fit for this particular region.
             <fruit fruitName="potato"    normalGrowthState="1" normalGrowthMaxState="3"/>
             <fruit fruitName="sugarBeet" normalGrowthState="1" normalGrowthMaxState="3"/>
             <fruit fruitName="poplar" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
-            <fruit fruitName="grass" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
+            <fruit fruitName="grass" normalGrowthState="1" setGrowthState="2" desiredGrowthState="3"/>
             <fruit fruitName="oilseedRadish" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
         </gt>
         <gt growthTransitionNum="5"> <!--early summer to mid summer-->
