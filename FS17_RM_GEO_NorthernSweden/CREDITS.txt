@@ -2,6 +2,6 @@ CREDITS
 ===================
 
 Translations
-German - Blaggy
+German - Blaggy, Amadeo
 Italian - *TurboStar*
 French - Farmer1602
