@@ -1,9 +1,7 @@
 CREDITS
 ===================
 
-Weather XML -- reallogger
-
 Translations
-German - Blaggy
+German - Blaggy, Amadeo
 Italian - *TurboStar*
 French - Farmer1602
