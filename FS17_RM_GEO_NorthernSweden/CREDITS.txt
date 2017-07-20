@@ -1,8 +1,6 @@
 CREDITS
 ===================
 
-Weather XML -- baleBaron
-
 Translations
 German - Blaggy
 Italian - *TurboStar*
