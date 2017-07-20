@@ -11,6 +11,7 @@
         <ru>Seasons Geo: Snowy Lands</ru>
         <nl>Seasons Geo: Snowy Lands</nl>
         <hu>Seasons Geo: Snowy Lands</hu>
+        <it>Seasons Geo: Snowy Lands</it>
     </title>
 
     <description>
@@ -37,6 +38,11 @@ Genieße Deinen Urlaub!]]></de>
         <nl><![CDATA[Is het tijd om een pauze van de boerderij te nemen en op een wintervakantie te gaan? Ga dan naar Snowy Lands!
 
 Snowy Lands is een GEO mod die eeuwige winter en hoge sneeuw heeft. Rijd rond in uw vrachtwagen of tractor,glijden over de wegen of sneeuwcirkels tekenen.]]></nl>
+
+        <it><![CDATA[È tempo di una pausa dall'agricoltura e hai bisogno di vacanze invernali? Allora vai a Snowy Lands!
+
+Snowy Lands è una GEO mod per Seasons con neve alta e inverno perenne. Viaggia con il tuo camion o trattore slittando sopra le strade o disegnando cerchi nella neve.
+Goditi le vacanze!]]></it>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
