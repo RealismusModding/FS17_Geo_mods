@@ -5,3 +5,4 @@ Weather XML -- baleBaron
 
 Translations
 German - Blaggy
+Italian - turbostar
