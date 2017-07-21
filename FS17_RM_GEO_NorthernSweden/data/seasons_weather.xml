@@ -89,31 +89,31 @@
     --------------------------------------------------------------------------------------------------->
     <rain>
         <s season="0">
-            <mu value="1.1" />
-            <sigma value="0.2" />
+            <mu value="0.9" />
+            <sigma value="0.15" />
             <probRain value="0.30" />
-            <probClouds value="0.55" />
+            <probClouds value="0.65" />
             <probHail value="0.05" />
         </s>
         <s season="1">
-            <mu value="0.7" />
-            <sigma value="0.1" />
-            <probRain value="0.15" />
-            <probClouds value="0.30" />
+            <mu value="2.2" />
+            <sigma value="0.2" />
+            <probRain value="0.40" />
+            <probClouds value="0.52" />
             <probHail value="0.10" />
         </s>
         <s season="2">
-            <mu value="1.2" />
-            <sigma value="0.25" />
-            <probRain value="0.50" />
+            <mu value="2.0" />
+            <sigma value="0.15" />
+            <probRain value="0.25" />
             <probClouds value="0.65" />
             <probHail value="0.10" />
         </s>
         <s season="3">
-            <mu value="1.6" />
-            <sigma value="0.25" />
+            <mu value="1.8" />
+            <sigma value="0.15" />
             <probRain value="0.60" />
-            <probClouds value="0.70" />
+            <probClouds value="0.78" />
             <probHail value="0.01" />
         </s>
     </rain>
