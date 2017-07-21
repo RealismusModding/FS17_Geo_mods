@@ -4,3 +4,4 @@ CREDITS
 ## Translations
 
 German - Amadeo
+French - Farmer1602
