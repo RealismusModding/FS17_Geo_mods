@@ -1,5 +1,5 @@
 {
-  "name": "FS17_RM_GEO_Midwest",
+  "name": "FS17_RM_GEO_USMidwest",
   "version": "1.0.0",
   "description": "Seasons GEO Mod for U.S. Midwest",
   "main": "src/loader.lua",
@@ -36,7 +36,7 @@
   },
   "fs": {
     "modDescRev": "37",
-    "modZipName": "FS17_RM_GEO_Midwest",
+    "modZipName": "FS17_RM_GEO_USMidwest",
     "simpleVersion": 1
   }
 }
