@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="33">
+<modDesc descVersion="37">
     <author>Realismus Modding</author>
     <contributors>Rahkiin, theSeb, reallogger</contributors>
     <version>1.0.0.0</version>
@@ -8,6 +8,7 @@
         <en>Seasons GEO: Central France</en>
         <de>Seasons GEO: Central France</de>
         <fr>Seasons GEO: Central France</fr>
+        <it>Seasons GEO: Central France</it>
     </title>
 
     <description>
@@ -26,6 +27,11 @@ La dernière version du mod Seasons est nécessaire.]]></fr>
 MISSING
 
 Es wird die neuste Version vom Seasons mod benötigt.]]></de>
+        <it><![CDATA[Vuoi sperimentare l'agricoltura in Francia Centrale? Tenta la fortuna nella regione di Orléans nel cuore di Beauce, il granaio francese.
+
+Il clima di Beauce è relativamente stabile, clima temperato e asciutto. Quindi anche se gli inverni sono generalmente grigi e freschi (0 / + 10°C), le estati sono calde, secche e soleggiate, consentendo così la crescita di molte colture.
+
+È richiesta l'ultima versione della Seasons mod.]]></it>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
