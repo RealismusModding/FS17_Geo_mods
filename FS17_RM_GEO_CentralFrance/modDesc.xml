@@ -8,6 +8,7 @@
         <en>Seasons GEO: Central France</en>
         <de>Seasons GEO: Central France</de>
         <fr>Seasons GEO: Central France</fr>
+        <it>Seasons GEO: Central France</it>
     </title>
 
     <description>
@@ -26,6 +27,11 @@ La dernière version du mod Seasons est nécessaire.]]></fr>
 MISSING
 
 Es wird die neuste Version vom Seasons mod benötigt.]]></de>
+        <it><![CDATA[Vuoi sperimentare l'agricoltura nel centro della Francia? Prova la tua fortuna nella regione di Orléans, nel cuore del Beauce, il granaio di Francia.
+
+Il clima di Beauceron è relativamente stabile, oceanico degradato e asciutto. Quindi, anche se gli inverni sono generalmente grigi e freschi (0 / + 10 ° C), le estati sono calde, secche e soleggiate, consentendo molte colture
+
+È necessaria l'ultima versione del mod Seasons.]]></it>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
