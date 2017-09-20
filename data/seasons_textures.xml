@@ -1,13 +1,14 @@
 <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– DAYLIGHT DATA
+–– TEXTURE REPLACEMENTS
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Daylight adjustments
-–– Authors:  reallogger
+–– Purpose:  Resetting textures
+–– Authors:  Rahkiin
 ––
 –– Copyright (c) Realismus Modding, 2017
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<daylight>
-    <latitude>36.6</latitude>
-</daylight>
+<textures overwrite="true" materialHolder="../resources/replacementTextures/materialHolder.i3d" alphaBlending="false">
+    <seasons>
+    </seasons>
+</textures>

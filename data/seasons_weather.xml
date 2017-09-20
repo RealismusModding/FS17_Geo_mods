@@ -1,12 +1,12 @@
-<!--------------------------------------------------------------------------------------------------
--- WEATHER DATA
-----------------------------------------------------------------------------------------------------
--- Purpose: Weather data for Platinum DLC 
--- 	        based on the La Pampa province in Argentina (city of Santa Rosa)
--- Author:  reallogger
---
--- Copyright (c) Realismus Modding, 2017
---------------------------------------------------------------------------------------------------->
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose: Weather data for Platinum DLC
+–– 	        based on the La Pampa province in Argentina (city of Santa Rosa)
+–– Author:  reallogger
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
@@ -16,11 +16,11 @@
         <snowDepth>0</snowDepth>
     </startValues>
 
-    <!--------------------------------------------------------------------------------------------------
-    -- Temperature data from 1980-2017 is extracted from:
-    -- http://meteo-climat-bzh.dyndns.org/index.php?page=stati&id=786
-    -- Period 1 = September
-    --------------------------------------------------------------------------------------------------->
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Temperature data from 1980-2017 is extracted from:
+    –– http://meteo-climat-bzh.dyndns.org/index.php?page=stati&id=786
+    –– Period 1 = September
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
     <temperature>
         <p period="1">
             <min value="17.8">
@@ -84,11 +84,11 @@
         </p>
     </temperature>
 
-    <!--------------------------------------------------------------------------------------------------
-    -- Daily probability for rain and clouds taken from www.weatherspark.com
-    -- Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
-    --------------------------------------------------------------------------------------------------->
-    
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Daily probability for rain and clouds taken from www.weatherspark.com
+    –– Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
     <rain>
         <s season="0">
             <mu value="1.8" />
