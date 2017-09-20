@@ -1,0 +1,122 @@
+<!--------------------------------------------------------------------------------------------------
+-- WEATHER DATA
+----------------------------------------------------------------------------------------------------
+-- Purpose: Weather data for Platinum DLC 
+-- 	        based on the La Pampa province in Argentina (city of Santa Rosa)
+-- Author:  reallogger
+--
+-- Copyright (c) Realismus Modding, 2017
+--------------------------------------------------------------------------------------------------->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<weather>
+    <startValues>
+        <soilTemp>6</soilTemp>
+        <highAirTemp>8</highAirTemp>
+        <snowDepth>0</snowDepth>
+    </startValues>
+
+    <!--------------------------------------------------------------------------------------------------
+    -- Temperature data from 1980-2017 is extracted from:
+    -- http://meteo-climat-bzh.dyndns.org/index.php?page=stati&id=786
+    -- Period 1 = September
+    --------------------------------------------------------------------------------------------------->
+    <temperature>
+        <p period="1">
+            <min value="17.8">
+            <mode value="20.2">
+            <max value="24.5">
+        </p>
+        <p period="2">
+            <min value="20.8">
+            <mode value="23.4">
+            <max value="26.6">
+        </p>
+        <p period="3">
+            <min value="23.6">
+            <mode value="27.2">
+            <max value="33">
+        </p>
+        <p period="4">
+            <min value="26.4">
+            <mode value="30.4">
+            <max value="34.2">
+        </p>
+        <p period="5">
+            <min value="28.9">
+            <mode value="31.6">
+            <max value="35.8">
+        </p>
+        <p period="6">
+            <min value="24.6">
+            <mode value="30.2">
+            <max value="33.9">
+        </p>
+        <p period="7">
+            <min value="23.7">
+            <mode value="27.3">
+            <max value="31.9">
+        </p>
+        <p period="8">
+            <min value="18.9">
+            <mode value="22.6">
+            <max value="28.3">
+        </p>
+        <p period="9">
+            <min value="13.9">
+            <mode value="18.2">
+            <max value="21.9">
+        </p>
+        <p period="10">
+            <min value="10.8">
+            <mode value="15">
+            <max value="18.6">
+        </p>
+        <p period="11">
+            <min value="11.4">
+            <mode value="14.7">
+            <max value="17.5">
+        </p>
+        <p period="12">
+            <min value="14.4">
+            <mode value="17.5">
+            <max value="22.2">
+        </p>
+    </temperature>
+
+    <!--------------------------------------------------------------------------------------------------
+    -- Daily probability for rain and clouds taken from www.weatherspark.com
+    -- Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
+    --------------------------------------------------------------------------------------------------->
+    
+    <rain>
+        <s season="0">
+            <mu value="1.8" />
+            <sigma value="0.11" />
+            <probRain value="0.35" />
+            <probClouds value="0.65" />
+            <probHail value="0.05" />
+        </s>
+        <s season="1">
+            <mu value="1.6" />
+            <sigma value="0.21" />
+            <probRain value="0.40" />
+            <probClouds value="0.65" />
+            <probHail value="0.10" />
+        </s>
+        <s season="2">
+            <mu value="2.6" />
+            <sigma value="0.08" />
+            <probRain value="0.30" />
+            <probClouds value="0.70" />
+            <probHail value="0.10" />
+        </s>
+        <s season="3">
+            <mu value="0.8" />
+            <sigma value="0.15" />
+            <probRain value="0.20" />
+            <probClouds value="0.60" />
+            <probHail value="0.01" />
+        </s>
+    </rain>
+</weather>
