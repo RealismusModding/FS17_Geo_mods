@@ -2,9 +2,10 @@
 –– DAYLIGHT DATA
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 –– Purpose:  Daylight adjustments
-–– Authors:  reallogger
+–– Authors:  reallogger, Rahkiin
 ––
 –– Assumed location: Concepción, Paraguay
+–– Uses environment data almost directory from the DLC
 ––
 –– Copyright (c) Realismus Modding, 2017
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
@@ -12,4 +13,278 @@
 
 <daylight>
     <latitude>23.4</latitude>
+
+    <seasons>
+        <spring>
+            <ambient>
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.10 0.08 0.12" />
+                <key values="0.18 0.16 0.21" />
+                <key values="0.30 0.28 0.24" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.34 0.28 0.32" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.01 0.03" />
+            </ambient>
+
+            <sunColor>
+                <key values="0.06 0.08 0.18" />
+                <key values="0.06 0.08 0.18" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.12 0.10 0.20" />
+                <key values="1.30 0.85 0.65" />
+                <key values="1.70 1.10 1.00" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.30 1.10 1.10" />
+                <key values="1.50 0.90 0.50" />
+                <key values="1.30 0.40 0.10" />
+                <key values="0.90 0.60 0.30" />
+                <key values="0.12 0.12 0.24" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.04 0.06 0.12" />
+                <key values="0.06 0.08 0.18" />
+            </sunColor>
+
+            <distanceFog>
+                <key values="0.010 0.010 0.020 0.0008" />
+                <key values="0.010 0.010 0.020 0.0007" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.080 0.040 0.030 0.0003" />
+                <key values="0.060 0.100 0.190 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.036 0.090 0.186 0.0004" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.010 0.010 0.020 0.0006" />
+                <key values="0.010 0.010 0.020 0.0008" />
+            </distanceFog>
+
+            <dustDensity>
+                <key values="0" />
+                <key values="0" />
+                <key values="0.5" />
+                <key values="0.2" />
+                <key values="0.1" />
+                <key values="0.1" />
+                <key values="0.05" />
+                <key values="0" />
+                <key values="0" />
+            </dustDensity>
+        </spring>
+
+        <summer>
+            <ambient>
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.10 0.08 0.12" />
+                <key values="0.18 0.16 0.21" />
+                <key values="0.30 0.28 0.24" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.34 0.28 0.32" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.01 0.03" />
+            </ambient>
+
+            <sunColor>
+                <key values="0.06 0.08 0.18" />
+                <key values="0.06 0.08 0.18" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.12 0.10 0.20" />
+                <key values="1.30 0.85 0.65" />
+                <key values="1.70 1.10 1.00" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.30 1.10 1.10" />
+                <key values="1.50 0.90 0.50" />
+                <key values="1.30 0.40 0.10" />
+                <key values="0.90 0.60 0.30" />
+                <key values="0.12 0.12 0.24" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.04 0.06 0.12" />
+                <key values="0.06 0.08 0.18" />
+            </sunColor>
+
+            <distanceFog>
+                <key values="0.010 0.010 0.020 0.0008" />
+                <key values="0.010 0.010 0.020 0.0007" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.080 0.040 0.030 0.0003" />
+                <key values="0.060 0.100 0.190 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.036 0.090 0.186 0.0004" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.010 0.010 0.020 0.0006" />
+                <key values="0.010 0.010 0.020 0.0008" />
+            </distanceFog>
+
+            <dustDensity>
+                <key values="0" />
+                <key values="0" />
+                <key values="0.5" />
+                <key values="0.2" />
+                <key values="0.1" />
+                <key values="0.1" />
+                <key values="0.05" />
+                <key values="0" />
+                <key values="0" />
+            </dustDensity>
+        </summer>
+
+        <autumn>
+            <ambient>
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.10 0.08 0.12" />
+                <key values="0.18 0.16 0.21" />
+                <key values="0.30 0.28 0.24" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.34 0.28 0.32" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.01 0.03" />
+            </ambient>
+
+            <sunColor>
+                <key values="0.06 0.08 0.18" />
+                <key values="0.06 0.08 0.18" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.12 0.10 0.20" />
+                <key values="1.30 0.85 0.65" />
+                <key values="1.70 1.10 1.00" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.30 1.10 1.10" />
+                <key values="1.50 0.90 0.50" />
+                <key values="1.30 0.40 0.10" />
+                <key values="0.90 0.60 0.30" />
+                <key values="0.12 0.12 0.24" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.04 0.06 0.12" />
+                <key values="0.06 0.08 0.18" />
+            </sunColor>
+
+            <distanceFog>
+                <key values="0.010 0.010 0.020 0.0008" />
+                <key values="0.010 0.010 0.020 0.0007" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.080 0.040 0.030 0.0003" />
+                <key values="0.060 0.100 0.190 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.036 0.090 0.186 0.0004" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.010 0.010 0.020 0.0006" />
+                <key values="0.010 0.010 0.020 0.0008" />
+            </distanceFog>
+
+            <dustDensity>
+                <key values="0" />
+                <key values="0" />
+                <key values="0.5" />
+                <key values="0.2" />
+                <key values="0.1" />
+                <key values="0.1" />
+                <key values="0.05" />
+                <key values="0" />
+                <key values="0" />
+            </dustDensity>
+        </autumn>
+
+        <winter>
+            <ambient>
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.10 0.08 0.12" />
+                <key values="0.18 0.16 0.21" />
+                <key values="0.30 0.28 0.24" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.40 0.38 0.38" />
+                <key values="0.34 0.28 0.32" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.05 0.04 0.06" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.02 0.05" />
+                <key values="0.01 0.01 0.03" />
+                <key values="0.01 0.01 0.03" />
+            </ambient>
+
+            <sunColor>
+                <key values="0.06 0.08 0.18" />
+                <key values="0.06 0.08 0.18" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.12 0.10 0.20" />
+                <key values="1.30 0.85 0.65" />
+                <key values="1.70 1.10 1.00" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.60 1.40 1.40" />
+                <key values="1.30 1.10 1.10" />
+                <key values="1.50 0.90 0.50" />
+                <key values="1.30 0.40 0.10" />
+                <key values="0.90 0.60 0.30" />
+                <key values="0.12 0.12 0.24" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.00 0.00 0.00" />
+                <key values="0.04 0.06 0.12" />
+                <key values="0.06 0.08 0.18" />
+            </sunColor>
+
+            <distanceFog>
+                <key values="0.010 0.010 0.020 0.0008" />
+                <key values="0.010 0.010 0.020 0.0007" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.080 0.040 0.030 0.0003" />
+                <key values="0.060 0.100 0.190 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.050 0.130 0.270 0.0004" />
+                <key values="0.036 0.090 0.186 0.0004" />
+                <key values="0.010 0.010 0.020 0.0005" />
+                <key values="0.010 0.010 0.020 0.0006" />
+                <key values="0.010 0.010 0.020 0.0008" />
+            </distanceFog>
+
+            <dustDensity>
+                <key values="0" />
+                <key values="0" />
+                <key values="0.5" />
+                <key values="0.2" />
+                <key values="0.1" />
+                <key values="0.1" />
+                <key values="0.05" />
+                <key values="0" />
+                <key values="0" />
+            </dustDensity>
+        </winter>
+    </seasons>
 </daylight>

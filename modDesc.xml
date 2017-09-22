@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="37">
+    <author>Realismus Modding</author>
+    <contributors>reallogger, Rahkiin</contributors>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Seasons GEO: South America</en>
+    </title>
+
+    <description>
+        <en>South American GEO</en>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <seasons version="2">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>
