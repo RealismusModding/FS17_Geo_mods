@@ -12,7 +12,7 @@
 <weather>
     <startValues>
         <soilTemp>20</soilTemp>
-        <highAirTemp>29</highAirTemp>
+        <highAirTemp>22</highAirTemp>
         <snowDepth>0</snowDepth>
     </startValues>
 
