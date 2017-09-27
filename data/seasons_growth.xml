@@ -22,7 +22,7 @@
         <defaultFruit fruitName="poplar" maxSprayGrowthState="4" />
         <defaultFruit fruitName="grass" maxSprayGrowthState="4" />
         <defaultFruit fruitName="oilseedRadish" />
-        <defaultFruits fruitName = "sugarCane" />
+        <defaultFruit fruitName = "sugarCane" />
         <defaultFruit fruitName="dryGrass" />
     </defaultFruits>
 
