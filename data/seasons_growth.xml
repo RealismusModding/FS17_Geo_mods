@@ -63,7 +63,7 @@
             <fruit fruitName="rape"   normalGrowthState="6" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" normalGrowthState="1" />
             <fruit fruitName="sunflower" normalGrowthState="1" />
-
+            <fruit fruitName="sugarCane" normalGrowthState="1" setGrowthState="0" desiredGrowthState="1"/>
             
             
             
@@ -77,10 +77,9 @@
             <fruit fruitName="rape"   normalGrowthState="7" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" normalGrowthState="1" normalGrowthMaxState="2" />
             <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="2" />
+            <fruit fruitName="sugarCane" normalGrowthState="1" />
             
-            
-            <!-- <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="2" />
-            <fruit fruitName="potato"  extraGrowthMinState="2" extraGrowthMaxState="3" extraGrowthFactor="2" /> -->
+          
             <fruit fruitName="poplar" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
             <fruit fruitName="grass" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
             <fruit fruitName="oilseedRadish" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
@@ -93,7 +92,7 @@
             <fruit fruitName="rape"   setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" normalGrowthState="1" normalGrowthMaxState="3" />
             <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="3" />
-            
+            <fruit fruitName="sugarCane" normalGrowthState="2" />
             
             
         </gt>
@@ -105,7 +104,7 @@
             <fruit fruitName="rape"   setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" normalGrowthState="2" normalGrowthMaxState="4" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" normalGrowthState="2" normalGrowthMaxState="4" setGrowthState="1" desiredGrowthState="CUT" />
-            
+            <fruit fruitName="sugarCane" normalGrowthState="3" />
             
             
             
@@ -119,7 +118,8 @@
             <fruit fruitName="rape"   setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" normalGrowthState="3" normalGrowthMaxState="4" extraGrowthMinState="5" extraGrowthMaxState="5" extraGrowthFactor="2" setGrowthState="1"  desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" normalGrowthState="3" normalGrowthMaxState="4" extraGrowthMinState="5" extraGrowthMaxState="5" extraGrowthFactor="2" setGrowthState="1"  desiredGrowthState="CUT" />
-            
+            <fruit fruitName="sugarCane" normalGrowthState="4" />
+
             <fruit fruitName="poplar" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
             <fruit fruitName="grass" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
             <fruit fruitName="oilseedRadish" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
@@ -132,7 +132,7 @@
             <fruit fruitName="rape"   setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="soybean" extraGrowthMinState="4" extraGrowthMaxState="5" extraGrowthFactor="2" setGrowthState="1"  desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" extraGrowthMinState="4" extraGrowthMaxState="5" extraGrowthFactor="2" setGrowthState="1"  desiredGrowthState="CUT" />
-            
+            <fruit fruitName="sugarCane" normalGrowthState="5" />
         
             
             
@@ -146,7 +146,7 @@
             <fruit fruitName="rape"  normalGrowthState="1" />
             <fruit fruitName="soybean" normalGrowthState="6" setGrowthState="1"  desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" normalGrowthState="6" setGrowthState="1"  desiredGrowthState="CUT" />
-
+            <fruit fruitName="sugarCane" normalGrowthState="6" />
            
             <fruit fruitName="oilseedRadish" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE"/>
         </gt>
