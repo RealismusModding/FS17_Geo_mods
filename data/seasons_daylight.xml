@@ -11,7 +11,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<daylight latitude="23.4" dst="yes">
+<daylight latitude="-23.4" dst="yes">
     <seasons>
         <spring>
             <ambient>
