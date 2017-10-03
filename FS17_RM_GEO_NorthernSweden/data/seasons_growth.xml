@@ -39,6 +39,9 @@ Adjustments has been made to have growth fit for this particular region.
             <fruit fruitName="rape"    normalGrowthState="1" normalGrowthMaxState="2"/>
             <fruit fruitName="poplar" normalGrowthState="1" normalGrowthMaxState="MAX_STATE"/>
             <fruit fruitName="oilseedRadish" normalGrowthState="1" normalGrowthMaxState="MAX_STATE"/>
+            <fruit fruitName="maize" setGrowthState="1" desiredGrowthState="CUT"/>
+            <fruit fruitName="potato" setGrowthState="1" desiredGrowthState="CUT"/>
+            <fruit fruitName="sugarBeet" setGrowthState="1" desiredGrowthState="CUT"/>
         </gt>
         <gt growthTransitionNum="2"> <!--early spring to mid spring-->
             <fruit fruitName="barley"  normalGrowthState="1"  normalGrowthMaxState="3"/>
