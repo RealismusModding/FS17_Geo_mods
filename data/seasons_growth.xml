@@ -79,8 +79,8 @@
             <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="2" />
             
             
-            <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="2" />
-            <fruit fruitName="potato"  extraGrowthMinState="2" extraGrowthMaxState="3" extraGrowthFactor="2" />
+            <!-- <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="2" />
+            <fruit fruitName="potato"  extraGrowthMinState="2" extraGrowthMaxState="3" extraGrowthFactor="2" /> -->
             <fruit fruitName="poplar" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
             <fruit fruitName="grass" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
             <fruit fruitName="oilseedRadish" normalGrowthState="1"  normalGrowthMaxState="MAX_STATE" />
