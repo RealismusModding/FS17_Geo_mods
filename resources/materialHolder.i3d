@@ -18,12 +18,12 @@
 
     <Materials>
 
-        <Material name="lapacho_mat" materialId="2" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
+        <Material name="lapacho_mat" materialId="1" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
           <Texture fileId="1"/>
           <Normalmap fileId="2"/>
         </Material>
 
-        <Material name="lapachoLOD_mat" materialId="3" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
+        <Material name="lapachoLOD_mat" materialId="2" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
           <Texture fileId="3"/>
           <Normalmap fileId="4"/>
         </Material>
@@ -36,8 +36,8 @@
     </Dynamics>
 
     <Scene>
-        <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="2" materialIds="2" distanceBlending="false" />
-        <Shape shapeId="1" name="lapachoLOD_autumn" visibility="false" nodeId="3" materialIds="3" distanceBlending="false" />
+        <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="1" materialIds="1" distanceBlending="false" />
+        <Shape shapeId="1" name="lapachoLOD_autumn" visibility="false" nodeId="2" materialIds="2" distanceBlending="false" />
 
         <!-- Clone-able object for holding vanilla materials -->
         <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="1" distanceBlending="false" />
