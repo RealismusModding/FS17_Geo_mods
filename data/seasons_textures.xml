@@ -8,7 +8,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<textures overwrite="true" alphaBlending="false">
+<textures overwrite="true" alphaBlending="false" materialHolder="../resources/materialHolder.i3d">
     <seasons>
+        <autumn>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_autumn" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_autumn" />
+        </autumn>
     </seasons>
 </textures>

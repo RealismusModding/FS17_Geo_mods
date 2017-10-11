@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="37">
+<modDesc descVersion="38">
     <author>Realismus Modding</author>
-    <contributors>reallogger, Rahkiin</contributors>
+    <contributors>reallogger, Rahkiin, theSeb</contributors>
     <version>1.0.0.0</version>
 
     <title>
-        <en>Seasons GEO: South America</en>
+        <en>Seasons GEO: Paraguay</en>
+        <de>Seasons GEO: Paraguay</de>
+        <fr>Seasons GEO: Paraguay</fr>
     </title>
 
     <description>
-        <en>South American GEO</en>
+        <en><![CDATA[Experience the hot and humid environment of Paraguay with this GEO mod, made for the Farming Simulator 17 Platinum Edition!]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>

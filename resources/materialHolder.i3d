@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.0.5" />
+    </Asset>
+
+    <Files>
+        <File fileId="1" filename="lapacho_diffuse.png" relativePath="true" />
+        <File fileId="2" filename="lapacho_normal.png" relativePath="true" />
+        <File fileId="3" filename="lapachoLOD_diffuse.png" relativePath="true" />
+        <File fileId="4" filename="lapachoLOD_normal.png" relativePath="true" />
+
+        <!-- Shaders -->
+        <File fileId="801" filename="data/shaders/treeBranchShader.xml" relativePath="false" />
+        <File fileId="802" filename="data/shaders/treeBillboardShader.xml" relativePath="false" />
+    </Files>
+
+    <Materials>
+
+        <Material name="lapacho_mat" materialId="2" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
+          <Texture fileId="1"/>
+          <Normalmap fileId="2"/>
+        </Material>
+
+        <Material name="lapachoLOD_mat" materialId="3" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
+          <Texture fileId="3"/>
+          <Normalmap fileId="4"/>
+        </Material>
+    </Materials>
+
+    <Shapes externalShapesFile="materialHolder.i3d.shapes">
+    </Shapes>
+
+    <Dynamics>
+    </Dynamics>
+
+    <Scene>
+        <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="2" materialIds="2" distanceBlending="false" />
+        <Shape shapeId="1" name="lapachoLOD_autumn" visibility="false" nodeId="3" materialIds="3" distanceBlending="false" />
+
+        <!-- Clone-able object for holding vanilla materials -->
+        <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="1" distanceBlending="false" />
+    </Scene>
+</i3D>
