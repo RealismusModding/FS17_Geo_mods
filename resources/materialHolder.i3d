@@ -6,27 +6,59 @@
     </Asset>
 
     <Files>
-        <File fileId="1" filename="lapacho_diffuse.png" relativePath="true" />
-        <File fileId="2" filename="lapacho_normal.png" relativePath="true" />
-        <File fileId="3" filename="lapachoLOD_diffuse.png" relativePath="true" />
-        <File fileId="4" filename="lapachoLOD_normal.png" relativePath="true" />
+
+        <!-- Spring -->
+
+        <!-- Summer -->
+        <File fileId="201" filename="summer/lapacho_diffuse.png" relativePath="true" />
+        <File fileId="202" filename="summer/lapachoLOD_diffuse.png" relativePath="true" />
+
+        <!-- Autumn -->
+        <File fileId="301" filename="autumn/lapacho_diffuse.png" relativePath="true" />
+        <File fileId="302" filename="autumn/lapachoLOD_diffuse.png" relativePath="true" />
+
+        <!-- Winter -->
+
+        <!-- Normals -->
+        <File fileId="701" filename="any/lapacho_normal.png" relativePath="true" />
+        <File fileId="702" filename="any/lapachoLOD_normal.png" relativePath="true" />
 
         <!-- Shaders -->
         <File fileId="801" filename="data/shaders/treeBranchShader.xml" relativePath="false" />
         <File fileId="802" filename="data/shaders/treeBillboardShader.xml" relativePath="false" />
+        <File fileId="803" filename="data/shaders/windShader.xml" relativePath="false" />
     </Files>
 
     <Materials>
+        <!-- Spring -->
 
-        <Material name="lapacho_mat" materialId="1" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
-          <Texture fileId="1"/>
-          <Normalmap fileId="2"/>
+        <!-- Summer -->
+        <Material name="lapacho_mat" materialId="201" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
+          <Texture fileId="201"/>
+          <Normalmap fileId="701"/>
+          <CustomParameter name="windScale" value="1 0 0 0"/>
+        </Material>
+        <Material name="lapachoLOD_mat" materialId="202" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
+          <Texture fileId="202"/>
+          <Normalmap fileId="702"/>
+          <CustomParameter name="windScale" value="1 0 0 0"/>
         </Material>
 
-        <Material name="lapachoLOD_mat" materialId="2" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
-          <Texture fileId="3"/>
-          <Normalmap fileId="4"/>
+        <!-- Autumn -->
+        <Material name="lapacho_mat" materialId="301" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="801">
+          <Texture fileId="301"/>
+          <Normalmap fileId="701"/>
+          <CustomParameter name="windScale" value="1 0 0 0"/>
         </Material>
+        <Material name="lapachoLOD_mat" materialId="302" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="802" customShaderVariation="billboard180">
+          <Texture fileId="302"/>
+          <Normalmap fileId="702"/>
+          <CustomParameter name="windScale" value="1 0 0 0"/>
+        </Material>
+
+        <!-- Winter -->
+
+
     </Materials>
 
     <Shapes externalShapesFile="materialHolder.i3d.shapes">
@@ -36,10 +68,19 @@
     </Dynamics>
 
     <Scene>
-        <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="1" materialIds="1" distanceBlending="false" />
-        <Shape shapeId="1" name="lapachoLOD_autumn" visibility="false" nodeId="2" materialIds="2" distanceBlending="false" />
+        <!-- Spring -->
+
+        <!-- Summer -->
+        <Shape shapeId="1" name="lapacho_spring" visibility="false" nodeId="201" materialIds="201" distanceBlending="false" />
+        <Shape shapeId="1" name="lapachoLOD_spring" visibility="false" nodeId="202" materialIds="202" distanceBlending="false" />
+
+        <!-- Autumn -->
+        <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="301" materialIds="301" distanceBlending="false" />
+        <Shape shapeId="1" name="lapachoLOD_autumn" visibility="false" nodeId="302" materialIds="302" distanceBlending="false" />
+
+        <!-- Winter -->
 
         <!-- Clone-able object for holding vanilla materials -->
-        <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="1" distanceBlending="false" />
+        <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="103" distanceBlending="false" />
     </Scene>
 </i3D>

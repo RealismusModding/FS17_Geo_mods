@@ -10,9 +10,19 @@
 
 <textures overwrite="true" alphaBlending="false" materialHolder="../resources/materialHolder.i3d">
     <seasons>
+        <summer>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_summer" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_summer" />
+        </summer>
+
         <autumn>
             <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_autumn" />
             <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_autumn" />
         </autumn>
+
+        <winter>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_autumn" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_autumn" />
+        </winter>
     </seasons>
 </textures>

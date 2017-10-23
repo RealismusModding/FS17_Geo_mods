@@ -12,15 +12,15 @@
     <latitudeCategory type="1">
         <visual transition="1">spring</visual>
         <visual transition="2">spring</visual>
-        <visual transition="3">summer</visual>
+        <visual transition="3">spring</visual>
         <visual transition="4">summer</visual>
         <visual transition="5">summer</visual>
         <visual transition="6">summer</visual>
         <visual transition="7">summer</visual>
         <visual transition="8">summer</visual>
-        <visual transition="9">summer</visual>
-        <visual transition="10">summer</visual>
-        <visual transition="11">summer</visual>
-        <visual transition="12">summer</visual>
+        <visual transition="9">autumn</visual>
+        <visual transition="10">autumn</visual>
+        <visual transition="11">autumn</visual>
+        <visual transition="12">spring</visual>
     </latitudeCategory>
 </visualSeason>
