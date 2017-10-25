@@ -71,8 +71,8 @@
         <!-- Spring -->
 
         <!-- Summer -->
-        <Shape shapeId="1" name="lapacho_spring" visibility="false" nodeId="201" materialIds="201" distanceBlending="false" />
-        <Shape shapeId="1" name="lapachoLOD_spring" visibility="false" nodeId="202" materialIds="202" distanceBlending="false" />
+        <Shape shapeId="1" name="lapacho_summer" visibility="false" nodeId="201" materialIds="201" distanceBlending="false" />
+        <Shape shapeId="1" name="lapachoLOD_summer" visibility="false" nodeId="202" materialIds="202" distanceBlending="false" />
 
         <!-- Autumn -->
         <Shape shapeId="1" name="lapacho_autumn" visibility="false" nodeId="301" materialIds="301" distanceBlending="false" />
