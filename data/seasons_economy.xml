@@ -163,8 +163,8 @@
             </factors>
         </fill>
 
-        <fill name="sugarBeet" shift="6">>
-            <factors shift="1">
+        <fill name="sugarBeet">
+            <factors shift="6">
                 <factor transition="11">1.22</factor>
                 <factor transition="12">1.21</factor>
                 <factor transition="1">1.12</factor>
