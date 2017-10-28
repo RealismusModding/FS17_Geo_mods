@@ -81,6 +81,6 @@
         <!-- Winter -->
 
         <!-- Clone-able object for holding vanilla materials -->
-        <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="103" distanceBlending="false" />
+        <Shape shapeId="1" name="summer_material_holder" visibility="false" nodeId="1000" materialIds="201" distanceBlending="false" />
     </Scene>
 </i3D>
