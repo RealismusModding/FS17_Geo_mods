@@ -190,7 +190,7 @@
             <fruit fruitName="potato" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
             <fruit fruitName="sugarBeet" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
             <fruit fruitName="poplar" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
-            <fruit fruitName="grass" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="2" />
+            <fruit fruitName="grass" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="3" />
             <fruit fruitName="sugarCane" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
         </gt>
     </growthTransitions>
