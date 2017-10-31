@@ -1,11 +1,11 @@
-<!--------------------------------------------------------------------------------------------------
--- WEATHER DATA
-----------------------------------------------------------------------------------------------------
--- Purpose:  Weather data for northwest Wales
--- Authors:  reallogger
---
--- Copyright (c) Realismus Modding, 2017
---------------------------------------------------------------------------------------------------->
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose:  Weather data for northwest Wales
+–– Authors:  reallogger
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
@@ -15,10 +15,10 @@
         <snowDepth>0</snowDepth>
     </startValues>
 
-    <!--------------------------------------------------------------------------------------------------
-    -- Temperature data is extracted from:
-    -- www.metoffice.gov.uk
-    --------------------------------------------------------------------------------------------------->
+    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Temperature data is extracted from:
+    –– www.metoffice.gov.uk
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
     <temperature>
         <p period="1">
             <min value="6.9" />
@@ -82,10 +82,10 @@
         </p>
     </temperature>
 
-    <!--------------------------------------------------------------------------------------------------
-    -- Daily probability for rain and clouds taken from www.weatherspark.com
-    -- Probability distribution parameters for precipitation duration processed based on data from www.metoffice.gov.uk
-    --------------------------------------------------------------------------------------------------->
+    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Daily probability for rain and clouds taken from www.weatherspark.com
+    –– Probability distribution parameters for precipitation duration processed based on data from www.metoffice.gov.uk
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 
     <rain>
         <s season="0">
