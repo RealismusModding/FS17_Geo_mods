@@ -1,11 +1,11 @@
-<!--------------------------------------------------------------------------------------------------
--- WEATHER DATA
-----------------------------------------------------------------------------------------------------
--- Purpose:  Weather
--- Authors:  baron
---
--- Copyright (c) Realismus Modding, 2017
---------------------------------------------------------------------------------------------------->
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose:  Weather
+–– Authors:  baron
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
@@ -14,11 +14,11 @@
         <highAirTemp>-5</highAirTemp>
         <snowDepth>0.3</snowDepth>
     </startValues>
-    <!--------------------------------------------------------------------------------------------------
-    -- Temperature data is extracted from:
-    -- http://www.smhi.se/klimatdata/meteorologi/temperatur 
-    -- using "Dygnets maxtemperatur" (average day max) as p.mode
-    --------------------------------------------------------------------------------------------------->
+    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Temperature data is extracted from:
+    –– http://www.smhi.se/klimatdata/meteorologi/temperatur
+    –– using "Dygnets maxtemperatur" (average day max) as p.mode
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
     <temperature>
         <p period="1">
             <min value="0" />         <!-- unused in seasons V1 -->
@@ -81,12 +81,12 @@
             <max value="0" />         <!-- unused in seasons V1 -->
         </p>
     </temperature>
-    <!--------------------------------------------------------------------------------------------------
-    -- Rain and cloud probabilities were found at
-    -- http://data.smhi.se/met/climate/time_series/month/vov_pdf/
-    -- using "Antal nederbördsdagar" (number of rainy days) 
-    -- per month divided by days in month averaged over months in season
-    --------------------------------------------------------------------------------------------------->
+    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Rain and cloud probabilities were found at
+    –– http://data.smhi.se/met/climate/time_series/month/vov_pdf/
+    –– using "Antal nederbördsdagar" (number of rainy days)
+    –– per month divided by days in month averaged over months in season
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
     <rain>
         <s season="0">
             <mu value="0.9" />

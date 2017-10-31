@@ -1,6 +1,6 @@
 {
   "name": "FS17_RM_GEO_NorthernSweden",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seasons GEO Mod for Northern Sweden",
   "main": "src/loader.lua",
   "repository": {
