@@ -48,7 +48,7 @@
             <fruit fruitName="sunflower" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="sugarCane" normalGrowthState="5" normalGrowthMaxState="6" />
             <fruit fruitName="poplar" normalGrowthState="1" normalGrowthMaxState="MAX_STATE" />
-            <fruit fruitName="grass" normalGrowthState="1" setGrowthState="2" desiredGrowthState="3" />
+            <fruit fruitName="grass" normalGrowthState="1" normalGrowthMaxState="MAX_STATE" />
             <fruit fruitName="oilseedRadish" normalGrowthState="1" normalGrowthMaxState="MAX_STATE" />
         </gt>
         <gt growthTransitionNum="3"> <!--mid spring to late spring-->
@@ -92,7 +92,7 @@
             <fruit fruitName="soybean" normalGrowthState="2" normalGrowthMaxState="4" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" normalGrowthState="2" normalGrowthMaxState="4" setGrowthState="1" desiredGrowthState="CUT" />
             <fruit fruitName="sugarCane" normalGrowthState="1" normalGrowthMaxState="6" />
-            <fruit fruitName="grass" normalGrowthState="2" normalGrowthMaxState="MAX_STATE"/>
+            <fruit fruitName="grass" normalGrowthState="1" normalGrowthMaxState="MAX_STATE"/>
         </gt>
         <gt growthTransitionNum="7"> <!--late summer to early autumn-->
             <fruit fruitName="maize" normalGrowthState="6" setGrowthState="1" desiredGrowthState="CUT" />
@@ -138,8 +138,7 @@
             <fruit fruitName="sunflower" desiredGrowthState="CUT" />
             <fruit fruitName="sugarCane" normalGrowthState="5" normalGrowthMaxState="6" />
 
-            <!-- <fruit fruitName="grass" setGrowthState="1"  setGrowthMaxState="MAX_STATE" desiredGrowthState="3" /> -->
-            <!-- everything from 1 and 2, do +1. set 4 to 3 too -->
+            <fruit fruitName="grass" setGrowthState="1"  setGrowthMaxState="MAX_STATE" desiredGrowthState="2" />
         </gt>
         <gt growthTransitionNum="11"> <!--early winter to mid winter-->
             <fruit fruitName="maize" setGrowthState="1" desiredGrowthState="CUT" />
