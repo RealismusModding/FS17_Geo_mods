@@ -19,7 +19,12 @@
 
 Snowy Lands is a GEO mod that has eternal winter and high snow. Drive around in your truck or tractor, slipping over the roads, or draw snow circles.
 
-Enjoy your holiday!]]></en>
+Enjoy your holiday!
+
+Version 1.1.0.0
+- Added Sugarcane (no growth)
+- Removed code
+- Updated calendar for Seasons 1.2]]></en>
         <hu><![CDATA[Itt az idő hogy pihentesd a gazdálkodást és élvezd a téli pihenőt? Akkor irány a Havas Táj!
 
 A Havas Táj egy GEO mod végtelen téllel és rengeteg hóval. Csúszkálj az utakon a traktoroddal és a gépeiddel, vagy akár rajzolj a hóba köröket.
@@ -34,7 +39,11 @@ Snowy Lands - это GEO-мод, который устанавливант ве�
 
 Snowy Lands ist ein GEO Mod, der ewigen Winter und hohen Schnee hat. Fahre in Deinem LKW oder Traktor herum, rutsche über die Straßen oder ziehe Kreise im Schnee.
 
-Genieße Deinen Urlaub!]]></de>
+Genieße Deinen Urlaub!
+
+Version 1.1.0.0
+- Zuckerrohr hinzugefügt
+- Kalender aktualisiert für Seasons 1.2]]></de>
         <nl><![CDATA[Is het tijd om een pauze van de boerderij te nemen en op een wintervakantie te gaan? Ga dan naar Snowy Lands!
 
 Snowy Lands is een GEO mod die eeuwige winter en hoge sneeuw heeft. Rijd rond in uw vrachtwagen of tractor,glijden over de wegen of sneeuwcirkels tekenen.]]></nl>
@@ -48,18 +57,18 @@ Goditi le vacanze!]]></it>
 
 Snowy Lands est un mod GEO qui a un hiver éternel et une hauteur de neige élevée. Circulez dans votre camion ou votre tracteur, glissez sur les routes ou dessinez des cercles dans la neige.
 
-Profitez de vos vacances!]]></fr>
+Profitez de vos vacances!
+
+Version 1.1.0.0
+- Canne à sucre ajoutée (pas de croissance)
+- Calendrier mis à jour pour Seasons 1.2]]></fr>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
 
     <multiplayer supported="true"/>
 
-    <extraSourceFiles>
-        <sourceFile filename="src/main.lua"/>
-    </extraSourceFiles>
-
-    <seasons version="2">
+    <seasons version="3">
         <type>geo</type>
         <dataFolder>data/</dataFolder>
     </seasons>

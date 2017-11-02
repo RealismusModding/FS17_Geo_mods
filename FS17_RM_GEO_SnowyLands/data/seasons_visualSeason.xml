@@ -1,5 +1,5 @@
 <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– DAYLIGHT DATA
+–– VISUAL SEASON DATA
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 –– Purpose:  Daylight adjustments
 –– Authors:  Rahkiin
@@ -8,6 +8,19 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<daylight>
-    <latitude>70</latitude>
-</daylight>
+<visualSeason>
+    <latitudeCategory type="6">
+        <visual transition="1">winter</visual>
+        <visual transition="2">winter</visual>
+        <visual transition="3">winter</visual>
+        <visual transition="4">winter</visual>
+        <visual transition="5">winter</visual>
+        <visual transition="6">winter</visual>
+        <visual transition="7">winter</visual>
+        <visual transition="8">winter</visual>
+        <visual transition="9">winter</visual>
+        <visual transition="10">winter</visual>
+        <visual transition="11">winter</visual>
+        <visual transition="12">winter</visual>
+    </latitudeCategory>
+</visualSeason>
