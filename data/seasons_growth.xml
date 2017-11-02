@@ -85,6 +85,7 @@
             <fruit fruitName="soybean" normalGrowthState="1" normalGrowthMaxState="3" />
             <fruit fruitName="sunflower" normalGrowthState="1" normalGrowthMaxState="3" />
             <fruit fruitName="grass" normalGrowthState="1" normalGrowthMaxState="MAX_STATE" />
+            <fruit fruitName="sugarCane" normalGrowthState="5" normalGrowthMaxState="6" />
         </gt>
         <gt growthTransitionNum="6"> <!--mid summer to late summer-->
             <fruit fruitName="maize" normalGrowthState="5" normalGrowthMaxState="6" setGrowthState="1" desiredGrowthState="CUT" />
