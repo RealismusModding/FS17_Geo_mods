@@ -35,7 +35,7 @@
     "vinyl-ftp": "^0.5.0"
   },
   "fs": {
-    "modDescRev": "37",
+    "modDescRev": "38",
     "modZipName": "FS17_RM_GEO_USMidwest",
     "simpleVersion": 1
   }

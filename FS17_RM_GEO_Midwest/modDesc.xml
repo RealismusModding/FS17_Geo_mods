@@ -42,6 +42,12 @@ Version 1.1.0.0
 
     <iconFilename>icon.dds</iconFilename>
 
+    <credits><![CDATA[
+## Translations
+French - Anonymous, Farmer1602
+German - Amadeo
+]]></credits>
+
     <multiplayer supported="true"/>
 
     <seasons version="2">

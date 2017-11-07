@@ -1,7 +1,0 @@
-CREDITS
-===================
-
-Translations
-German - Blaggy, Amadeo
-Italian - *TurboStar*
-French - Farmer1602

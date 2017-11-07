@@ -48,6 +48,13 @@ Version 1.1.0.0
 
     <iconFilename>icon.dds</iconFilename>
 
+    <credits><![CDATA[
+## Translations
+German - Blaggy, Amadeo
+Italian - *TurboStar*
+French - Farmer1602
+]]></credits>
+
     <multiplayer supported="true"/>
 
     <seasons version="2">
