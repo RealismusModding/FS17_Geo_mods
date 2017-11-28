@@ -1,6 +1,6 @@
 {
   "name": "FS17_RM_GEO_Paraguay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Seasons GEO Mod for Paraguay",
   "main": "src/loader.lua",
   "author": "Realismus Modding",

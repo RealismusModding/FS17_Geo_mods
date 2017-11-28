@@ -8,7 +8,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<textures overwrite="true" alphaBlending="false" materialHolder="../resources/materialHolder.i3d">
+<textures overwrite="true" alphaBlending="false" materialHolder="../resources/materialHolder.i3d" textureMemoryUsage="2097152">
     <seasons>
         <summer>
             <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_summer" />
