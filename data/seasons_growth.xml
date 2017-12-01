@@ -163,17 +163,17 @@
             <fruit fruitName="sunflower" setGrowthState="1" desiredGrowthState="CUT" />
         </gt>
         <gt growthTransitionNum="FIRST_LOAD_TRANSITION">
-            <fruit fruitName="barley" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
-            <fruit fruitName="wheat" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
-            <fruit fruitName="rape" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
-            <fruit fruitName="maize" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
+            <fruit fruitName="barley" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="7" />
+            <fruit fruitName="wheat" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="7" />
+            <fruit fruitName="rape" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="7" />
+            <fruit fruitName="maize" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="2" />
             <fruit fruitName="soybean" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
             <fruit fruitName="sunflower" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
-            <fruit fruitName="potato" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
+            <fruit fruitName="potato" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="2" />
             <fruit fruitName="sugarBeet" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
             <fruit fruitName="poplar" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
             <fruit fruitName="grass" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="3" />
-            <fruit fruitName="sugarCane" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" />
+            <!-- do not reset sugarcane <fruit fruitName="sugarCane" setGrowthState="1" setGrowthMaxState="MAX_STATE" desiredGrowthState="CUT" /> -->
         </gt>
     </growthTransitions>
 
