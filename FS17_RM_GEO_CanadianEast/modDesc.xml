@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="37">
+    <author>Realismus Modding</author>
+    <contributors>reallogger</contributors>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Seasons GEO: Canadian East</en>
+        <de>Seasons GEO: Canadian East</de>
+        <fr>Seasons GEO: Canadian East</fr>
+    </title>
+
+    <description>
+        <en><![CDATA[
+
+The latest version of the Seasons mod is required.]]></en>
+        <de><![CDATA[
+
+Es wird die neuste Version vom Seasons mod benötigt.]]></de>
+
+        <fr><![CDATA[
+
+La dernière version du mod Seasons est nécessaire.]]></fr>
+    </description>
+
+        <credits><![CDATA[
+## Translations
+German - 
+French - 
+## Testing
+ThaFarmer
+]]></credits>
+    
+    <iconFilename>icon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <seasons version="2">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>

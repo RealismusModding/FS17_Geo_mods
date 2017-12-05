@@ -1,0 +1,127 @@
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose: Weather data for East Canada GEO
+–– 	        based on weather in Montreal
+–– Author:  reallogger
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<weather>
+    <startValues>
+        <soilTemp>0</soilTemp>
+        <highAirTemp>-2</highAirTemp>
+        <snowDepth>0.1</snowDepth>
+    </startValues>
+
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Temperature data from 1980-2017 is extracted from:
+    –– http://meteo-climat-bzh.dyndns.org/mete4-330-1835-2017.php
+    –– Period 1 = March
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+    <temperature>
+        <p period="1">
+            <min value="-1.6" />
+            <mode value="3.1" />
+            <max value="8.4" />
+        </p>
+        <p period="2">
+            <min value="9.2" />
+            <mode value="12.1" />
+            <max value="15" />
+        </p>
+        <p period="3">
+            <min value="15.6" />
+            <mode value="19.7" />
+            <max value="24.5" />
+        </p>
+        <p period="4">
+            <min value="21.1" />
+            <mode value="24.4" />
+            <max value="28" />
+        </p>
+        <p period="5">
+            <min value="24.2" />
+            <mode value="26.8" />
+            <max value="28.8" />
+        </p>
+        <p period="6">
+            <min value="22.4" />
+            <mode value="25.8" />
+            <max value="29.5" />
+        </p>
+        <p period="7">
+            <min value="17.8" />
+            <mode value="21.3" />
+            <max value="25.5" />
+        </p>
+        <p period="8">
+            <min value="10" />
+            <mode value="13.7" />
+            <max value="18.2" />
+        </p>
+        <p period="9">
+            <min value="3.2" />
+            <mode value="6.3" />
+            <max value="10.1" />
+        </p>
+        <p period="10">
+            <min value="-10.5" />
+            <mode value="-0.8" />
+            <max value="4.9" />
+        </p>
+        <p period="11">
+            <min value="-10.9" />
+            <mode value="-4.4" />
+            <max value="1" />
+        </p>
+        <p period="12">
+            <min value="-10.4" />
+            <mode value="-2.6" />
+            <max value="3" />
+        </p>
+    </temperature>
+
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Daily probability for rain and clouds taken from www.weatherspark.com
+    -- https://weatherspark.com/y/25077/Average-Weather-in-Montr%C3%A9al-Canada-Year-Round
+    –– Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+    <rain>
+        <s season="0">
+            <mu value="1.83" />
+            <sigma value="0.25" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.32" />
+            <probClouds value="0.45" />
+            <probHail value="0.04" />
+        </s>
+        <s season="1">
+            <mu value="1.84" />
+            <sigma value="0.17" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.41" />
+            <probClouds value="0.60" />
+            <probHail value="0.12" />
+        </s>
+        <s season="2">
+            <mu value="2.09" />
+            <sigma value="0.2" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.32" />
+            <probClouds value="0.60" />
+            <probHail value="0.05" />
+        </s>
+        <s season="3">
+            <mu value="0.95" />
+            <sigma value="0.32" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.25" />
+            <probClouds value="0.35" />
+            <probHail value="0.05" />
+        </s>
+    </rain>
+</weather>
