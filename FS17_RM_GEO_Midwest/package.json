@@ -1,6 +1,6 @@
 {
   "name": "FS17_RM_GEO_USMidwest",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Seasons GEO Mod for U.S. Midwest",
   "main": "src/loader.lua",
   "repository": {
