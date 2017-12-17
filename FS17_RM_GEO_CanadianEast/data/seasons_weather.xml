@@ -116,11 +116,11 @@
             <probHail value="0.05" />
         </s>
         <s season="3">
-            <mu value="0.95" />
-            <sigma value="0.32" />
+            <mu value="1.2" />
+            <sigma value="0.3" />
             <rainIntensity value="1.0" />
-            <probRain value="0.25" />
-            <probClouds value="0.35" />
+            <probRain value="0.40" />
+            <probClouds value="0.55" />
             <probHail value="0.05" />
         </s>
     </rain>
