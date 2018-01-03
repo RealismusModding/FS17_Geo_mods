@@ -1,0 +1,127 @@
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose: Weather data for South Australia GEO
+–– 	        based on weather in Adelaide
+–– Author:  reallogger
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<weather>
+    <startValues>
+        <soilTemp>22</soilTemp>
+        <highAirTemp>30</highAirTemp>
+        <snowDepth>0</snowDepth>
+    </startValues>
+
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Temperature data from 1980-2013 is extracted from:
+    –– http://meteo-climat-bzh.dyndns.org/mete1-629-1839-2013.php
+    –– Period 1 = September
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+    <temperature>
+        <p period="1">
+            <min value="15.8" />
+            <mode value="19.1" />
+            <max value="21.1" />
+        </p>
+        <p period="2">
+            <min value="18.8" />
+            <mode value="21.8" />
+            <max value="24.4" />
+        </p>
+        <p period="3">
+            <min value="21.5" />
+            <mode value="25.2" />
+            <max value="30.8" />
+        </p>
+        <p period="4">
+            <min value="23.3" />
+            <mode value="27" />
+            <max value="29" />
+        </p>
+        <p period="5">
+            <min value="25.1" />
+            <mode value="29.2" />
+            <max value="33.7" />
+        </p>
+        <p period="6">
+            <min value="26.4" />
+            <mode value="29.4" />
+            <max value="32.9" />
+        </p>
+        <p period="7">
+            <min value="23.1" />
+            <mode value="26.4" />
+            <max value="30.9" />
+        </p>
+        <p period="8">
+            <min value="19.7" />
+            <mode value="22.8" />
+            <max value="26.1" />
+        </p>
+        <p period="9">
+            <min value="17.4" />
+            <mode value="19" />
+            <max value="20.9" />
+        </p>
+        <p period="10">
+            <min value="14.3" />
+            <mode value="16.1" />
+            <max value="17.8" />
+        </p>
+        <p period="11">
+            <min value="13.9" />
+            <mode value="15.4" />
+            <max value="19.3" />
+        </p>
+        <p period="12">
+            <min value="14.8" />
+            <mode value="16.7" />
+            <max value="19.9" />
+        </p>
+    </temperature>
+
+    <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    –– Daily probability for rain and clouds taken from www.weatherspark.com
+    -- https://weatherspark.com/y/143693/Average-Weather-in-Adelaide-Australia-Year-Round
+    –– Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+    <rain>
+        <s season="0">
+            <mu value="1.9" />
+            <sigma value="0.2" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.15" />
+            <probClouds value="0.35" />
+            <probHail value="0.0" />
+        </s>
+        <s season="1">
+            <mu value="1.6" />
+            <sigma value="0.25" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.07" />
+            <probClouds value="0.25" />
+            <probHail value="0.0" />
+        </s>
+        <s season="2">
+            <mu value="1.9" />
+            <sigma value="0.2" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.15" />
+            <probClouds value="0.33" />
+            <probHail value="0.01" />
+        </s>
+        <s season="3">
+            <mu value="1.75" />
+            <sigma value="0.2" />
+            <rainIntensity value="1.0" />
+            <probRain value="0.30" />
+            <probClouds value="0.50" />
+            <probHail value="0.05" />
+        </s>
+    </rain>
+</weather>
