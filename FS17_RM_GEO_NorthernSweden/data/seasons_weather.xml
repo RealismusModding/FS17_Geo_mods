@@ -1,120 +1,117 @@
 <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 –– WEATHER DATA
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Weather
-–– Authors:  baron
+–– Purpose: Weather data for Northern Sweden (Storuman and Dikanäs)
+–– Authors:  baron, reallogger
 ––
-–– Copyright (c) Realismus Modding, 2017
+–– DATA SOURCES:
+–– Temperature in degree centigrades – www.smhi.se/klimatdata/meteorologi/temperatur
+–– Probability for clouds – www.weatherspark.com
+–– Probability for rain – www.weatherspark.com
+–– Average rain amount in mm – www.weatherspark.com
+–– Average wind speed in m/s – www.weatherspark.com
+–– Probability for hail – no source 
+–– 
+–– Copyright (c) Realismus Modding, 2018
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+    
 <weather>
     <startValues>
         <soilTemp>-4</soilTemp>
         <highAirTemp>-5</highAirTemp>
         <snowDepth>0.3</snowDepth>
     </startValues>
-    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-    –– Temperature data is extracted from:
-    –– http://www.smhi.se/klimatdata/meteorologi/temperatur
-    –– using "Dygnets maxtemperatur" (average day max) as p.mode
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
     <temperature>
-        <p period="1">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-2.5" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="2">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="3.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="3">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="9.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="4">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="16.5" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="5">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="17.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="6">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="15.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="7">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="8.2" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="8">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="3.0" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="9">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-2.9" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="10">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-6.1" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="11">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-7.8" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
-        <p period="12">
-            <min value="0" />         <!-- unused in seasons V1 -->
-            <mode value="-5.9" />
-            <max value="0" />         <!-- unused in seasons V1 -->
-        </p>
+        <dailyMaximum>
+            <value transition="11">-7.8</value>
+            <value transition="12">-5.9</value>
+            <value transition="1">-2.5</value>
+            <value transition="2">3.0</value>
+            <value transition="3">9.0</value>
+            <value transition="4">16.5</value>
+            <value transition="5">17.0</value>
+            <value transition="6">15.0</value>
+            <value transition="7">8.2</value>
+            <value transition="8">3.0</value>
+            <value transition="9">-2.9</value>
+            <value transition="10">-6.1</value>
+        </dailyMaximum>
     </temperature>
-    <!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-    –– Rain and cloud probabilities were found at
-    –– http://data.smhi.se/met/climate/time_series/month/vov_pdf/
-    –– using "Antal nederbördsdagar" (number of rainy days)
-    –– per month divided by days in month averaged over months in season
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+    <clouds>
+        <probability>
+            <value transition="11">0.24</value>
+            <value transition="12">0.27</value>
+            <value transition="1">0.28</value>
+            <value transition="2">0.35</value>
+            <value transition="3">0.45</value>
+            <value transition="4">0.47</value>
+            <value transition="5">0.45</value>
+            <value transition="6">0.41</value>
+            <value transition="7">0.32</value>
+            <value transition="8">0.26</value>
+            <value transition="9">0.25</value>
+            <value transition="10">0.25</value>
+        </probability>
+    </clouds>
+
     <rain>
-        <s season="0">
-            <mu value="0.9" />
-            <sigma value="0.15" />
-            <probRain value="0.30" />
-            <probClouds value="0.65" />
-            <probHail value="0.05" />
-        </s>
-        <s season="1">
-            <mu value="2.2" />
-            <sigma value="0.2" />
-            <probRain value="0.40" />
-            <probClouds value="0.52" />
-            <probHail value="0.10" />
-        </s>
-        <s season="2">
-            <mu value="2.0" />
-            <sigma value="0.15" />
-            <probRain value="0.25" />
-            <probClouds value="0.65" />
-            <probHail value="0.10" />
-        </s>
-        <s season="3">
-            <mu value="1.8" />
-            <sigma value="0.15" />
-            <probRain value="0.60" />
-            <probClouds value="0.78" />
-            <probHail value="0.01" />
-        </s>
+        <probability>
+            <value transition="11">0.24</value>
+            <value transition="12">0.19</value>
+            <value transition="1">0.20</value>
+            <value transition="2">0.20</value>
+            <value transition="3">0.28</value>
+            <value transition="4">0.35</value>
+            <value transition="5">0.38</value>
+            <value transition="6">0.37</value>
+            <value transition="7">0.33</value>
+            <value transition="8">0.29</value>
+            <value transition="9">0.25</value>
+            <value transition="10">0.23</value>
+        </probability>
+        <rainfall>
+            <value transition="11">2</value>
+            <value transition="12">3</value>
+            <value transition="1">7</value>
+            <value transition="2">19</value>
+            <value transition="3">49</value>
+            <value transition="4">74</value>
+            <value transition="5">95</value>
+            <value transition="6">87</value>
+            <value transition="7">63</value>
+            <value transition="8">36</value>
+            <value transition="9">15</value>
+            <value transition="10">4</value>
+        </rainfall>
     </rain>
+
+    <wind>
+        <speed>
+            <value transition="11">2.5</value>
+            <value transition="12">2.5</value>
+            <value transition="1">2.5</value>
+            <value transition="2">2.3</value>
+            <value transition="3">2.3</value>
+            <value transition="4">2.2</value>
+            <value transition="5">1.9</value>
+            <value transition="6">2.0</value>
+            <value transition="7">2.1</value>
+            <value transition="8">2.2</value>
+            <value transition="9">2.3</value>
+            <value transition="10">2.5</value>
+        </speed>
+    </wind>
+
+    <hail>
+        <probability>
+            <value season="0">0.05</value>
+            <value season="1">0.15</value>
+            <value season="2">0.10</value>
+            <value season="3">0.01</value>
+        </probability>
+    </hail>
 </weather>

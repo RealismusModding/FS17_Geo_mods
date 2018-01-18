@@ -1,22 +1,19 @@
-<!--------------------------------------------------------------------------------------------------
--- WEATHER DATA
-----------------------------------------------------------------------------------------------------
--- Purpose:  Weather data for northwest Wales (based on city of Llanbedr)
--- Authors:  reallogger
---
--- Copyright (c) Realismus Modding, 2018
---------------------------------------------------------------------------------------------------->
-
-<!--------------------------------------------------------------------------------------------------
--- DATA SOURCES
------------------------------------------------------------------------------------------------------
--- Temperature in degree centigrades -- www.metoffice.gov.uk
--- Probability for clouds -- www.weatherspark.com
--- Probability for rain -- www.weatherspark.com
--- Average rain amount in mm -- www.weatherspark.com
--- Average wind speed in m/s -- www.weatherspark.com
--- Probability for hail -- no source 
---------------------------------------------------------------------------------------------------->
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– WEATHER DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose: Weather data for northwest Wales (based on city of Llanbedr)
+–– Authors:  reallogger
+––
+–– DATA SOURCES:
+–– Temperature in degree centigrades – www.metoffice.gov.uk
+–– Probability for clouds – www.weatherspark.com
+–– Probability for rain – www.weatherspark.com
+–– Average rain amount in mm – www.weatherspark.com
+–– Average wind speed in m/s – www.weatherspark.com
+–– Probability for hail – no source 
+–– 
+–– Copyright (c) Realismus Modding, 2018
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
     
