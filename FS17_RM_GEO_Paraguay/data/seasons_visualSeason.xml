@@ -1,0 +1,26 @@
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– VISUAL SEASON DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose:  Setting visual seasons
+–– Authors:  Rahkiin
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<visualSeason>
+    <latitudeCategory type="1">
+        <visual transition="1">spring</visual>
+        <visual transition="2">spring</visual>
+        <visual transition="3">spring</visual>
+        <visual transition="4">summer</visual>
+        <visual transition="5">summer</visual>
+        <visual transition="6">summer</visual>
+        <visual transition="7">summer</visual>
+        <visual transition="8">summer</visual>
+        <visual transition="9">autumn</visual>
+        <visual transition="10">autumn</visual>
+        <visual transition="11">autumn</visual>
+        <visual transition="12">spring</visual>
+    </latitudeCategory>
+</visualSeason>

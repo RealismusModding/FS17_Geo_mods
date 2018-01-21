@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="38">
+    <author>Realismus Modding</author>
+    <contributors>reallogger, Rahkiin, theSeb</contributors>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Seasons GEO: Paraguay</en>
+        <de>Seasons GEO: Paraguay</de>
+        <fr>Seasons GEO: Paraguay</fr>
+    </title>
+
+    <description>
+        <en><![CDATA[Experience the hot and humid environment of Paraguay with this GEO mod, made specifically for Farming Simulator 17 Platinum Edition!
+This mod provides localized weather, growth and economy to your Seasons gameplay. Animal feed and production are also changed to reflect the conditions in the area.
+
+This mod requires at least version 1.2 of Seasons. It was made specifically for the Platinum DLC, but can be used on any map.]]></en>
+        <fr><![CDATA[Découvrez l'ambiance chaude et humide du Paraguay avec ce mod GEO, spécialement conçu pour Farming Simulator 17 Platinum Edition!
+Ce mod fournit la météo, la croissance et l'économie locales à votre gameplay avec Seasons.
+L'alimentation animale et la production sont également modifiées pour refléter les conditions de la région.
+
+Ce mod nécessite au moins la version 1.2 de Seasons. Il a été conçu spécifiquement pour le DLC Platinum, mais peut être utilisé sur n'importe quelle carte.]]></fr>
+        <de><![CDATA[Erleben Sie das heiß-feuchte Klima in Paraguay mit diesem GEO Mod der speziell für die Landwirtschafts-Simulator 17 Platinum Edition erstellt wurde!
+Dieser Mod bietet regionales Wetter, Pflanzenwachstum und Ökonomie passend zum Seasons Mod Erlebnis. Die Viehzucht wurde angepasst, um die Möglichkeiten in der Region wiederzuspiegeln.
+
+Dieser Mod benötigt mindestens Version 1.2 des Seasons Mod und wurde eigens für das Platinum DLC erstellt, kann aber auf jeder anderen Map verwendet werden.]]></de>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <seasons version="3">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>

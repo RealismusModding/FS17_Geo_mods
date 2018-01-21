@@ -1,0 +1,135 @@
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– ANIMAL DATA
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose:  Data for animals for Platinum DLC
+–– Authors:  reallogger
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animals>
+    <seasons>
+        <spring>
+            <properties type="cow">
+                <straw>20</straw>
+                <food>350</food>
+                <water>50</water>
+                <birthRate>0</birthRate>
+                <milk>450</milk>
+                <manure>100</manure>
+                <liquidManure>110</liquidManure>
+                <dailyUpkeep>15</dailyUpkeep>
+            </properties>
+            <properties type="sheep">
+                <food>30</food>
+                <water>20</water>
+                <birthRate>0.035</birthRate>
+                <wool>8</wool>
+                <dailyUpkeep>15</dailyUpkeep>
+            </properties>
+            <properties type="pig">
+                <straw>10</straw>
+                <food>90</food>
+                <water>15</water>
+                <birthRate>0.04</birthRate>
+                <manure>25</manure>
+                <liquidManure>50</liquidManure>
+                <dailyUpkeep>10</dailyUpkeep>
+            </properties>
+        </spring>
+
+        <summer>
+            <properties type="cow">
+                <straw>15</straw>
+                <food>350</food>
+                <water>80</water>
+                <birthRate>0.02</birthRate>
+                <milk>300</milk>
+                <manure>100</manure>
+                <liquidManure>110</liquidManure>
+                <dailyUpkeep>35</dailyUpkeep>
+            </properties>
+
+            <properties type="sheep">
+                <food>30</food>
+                <water>25</water>
+                <birthRate>0</birthRate>
+                <wool>8</wool>
+                <dailyUpkeep>10</dailyUpkeep>
+            </properties>
+
+            <properties type="pig">
+                <straw>5</straw>
+                <food>90</food>
+                <water>25</water>
+                <birthRate>0</birthRate>
+                <manure>25</manure>
+                <liquidManure>50</liquidManure>
+                <dailyUpkeep>5</dailyUpkeep>
+            </properties>
+        </summer>
+
+        <autumn>
+            <properties type="cow">
+                <straw>20</straw>
+                <food>350</food>
+                <water>50</water>
+                <birthRate>0</birthRate>
+                <milk>350</milk>
+                <manure>100</manure>
+                <liquidManure>110</liquidManure>
+                <dailyUpkeep>15</dailyUpkeep>
+            </properties>
+
+            <properties type="sheep">
+                <food>30</food>
+                <water>20</water>
+                <birthRate>0</birthRate>
+                <wool>8</wool>
+                <dailyUpkeep>5</dailyUpkeep>
+            </properties>
+
+            <properties type="pig">
+                <straw>30</straw>
+                <food>90</food>
+                <water>15</water>
+                <birthRate>0.04</birthRate>
+                <manure>25</manure>
+                <liquidManure>50</liquidManure>
+                <dailyUpkeep>10</dailyUpkeep>
+            </properties>
+        </autumn>
+
+        <winter>
+            <properties type="cow">
+                <straw>20</straw>
+                <food>350</food>
+                <water>55</water>
+                <birthRate>0</birthRate>
+                <milk>400</milk>
+                <manure>100</manure>
+                <liquidManure>110</liquidManure>
+                <dailyUpkeep>20</dailyUpkeep>
+            </properties>
+
+            <properties type="sheep">
+                <food>30</food>
+                <water>20</water>
+                <birthRate>0</birthRate>
+                <wool>8</wool>
+                <dailyUpkeep>10</dailyUpkeep>
+            </properties>
+
+            <properties type="pig">
+                <straw>30</straw>
+                <food>90</food>
+                <water>15</water>
+                <birthRate>0</birthRate>
+                <manure>25</manure>
+                <liquidManure>50</liquidManure>
+                <dailyUpkeep>10</dailyUpkeep>
+            </properties>
+        </winter>
+    </seasons>
+</animals>

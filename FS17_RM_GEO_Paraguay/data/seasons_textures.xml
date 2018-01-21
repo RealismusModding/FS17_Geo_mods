@@ -1,0 +1,28 @@
+<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– TEXTURE REPLACEMENTS
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–– Purpose:  Resetting textures and custom textures
+–– Authors:  Rahkiin
+––
+–– Copyright (c) Realismus Modding, 2017
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<textures overwrite="true" alphaBlending="false" materialHolder="../resources/materialHolder.i3d" textureMemoryUsage="2097152">
+    <seasons>
+        <summer>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_summer" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_summer" />
+        </summer>
+
+        <autumn>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_autumn" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_autumn" />
+        </autumn>
+
+        <winter>
+            <texture shapeName="lapacho" secondaryNodeName="LOD0Attachments" to="lapacho_autumn" />
+            <texture shapeName="lapacho" secondaryNodeName="LOD1" to="lapachoLOD_autumn" />
+        </winter>
+    </seasons>
+</textures>
