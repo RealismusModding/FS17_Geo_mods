@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="33">
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="38">
     <author>Realismus Modding</author>
     <contributors>reallogger</contributors>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
 
     <title>
         <en>Seasons GEO: Wales</en>
@@ -54,7 +54,7 @@ Italian - *TurboStar*
 French - Farmer1602
 ]]></credits>
 
-    <multiplayer supported="true"/>
+    <multiplayer supported="true" />
 
     <seasons version="2">
         <type>geo</type>

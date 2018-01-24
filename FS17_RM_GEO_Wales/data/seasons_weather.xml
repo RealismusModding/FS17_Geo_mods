@@ -1,14 +1,8 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Weather data for northwest Wales
-–– Authors:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-
 <weather>
+    <author>reallogger</author>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+
     <startValues>
         <soilTemp>6</soilTemp>
         <highAirTemp>8</highAirTemp>
