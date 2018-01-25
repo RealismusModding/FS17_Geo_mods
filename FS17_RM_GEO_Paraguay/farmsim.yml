@@ -1,0 +1,12 @@
+name: "GEO: Paraguay"
+zip_name: FS17_RM_GEO_Paraguay
+author: Realismus Modding
+contributors:
+  - reallogger
+  - Rahkiin
+  - theSeb
+version: 1.0.1.0
+resources:
+  - data
+  - resources
+type: geo

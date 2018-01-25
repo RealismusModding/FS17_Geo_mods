@@ -1,0 +1,11 @@
+name: "GEO: U.S. Midwest"
+zip_name: FS17_RM_GEO_Midwest
+author: Realismus Modding
+contributors:
+  - Rahkiin
+  - theSeb
+  - reallogger
+version: 1.2.1.0
+resources:
+  - data
+type: geo

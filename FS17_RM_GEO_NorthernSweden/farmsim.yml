@@ -1,8 +1,10 @@
-name: "GEO: Wales"
-zip_name: FS17_RM_GEO_Wales
+name: "GEO: Northern Sweden"
+zip_name: FS17_RM_GEO_NorthernSweden
 author: Realismus Modding
 contributors:
+  - Rahkiin
   - reallogger
+  - baron
 version: 1.1.0.0
 resources:
   - data

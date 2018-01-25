@@ -4,8 +4,35 @@ A repository of all GEO mods. If you wish to test them, then you need to downloa
 
 Note that only one GEO mod can be active in a savegame.
 
-
-
 ### Wales
 
 Weather is created by reallogger. The same weather can be found in the Churn Valley map by ccs101
+
+### U.S. Midwest
+
+This GEO mod simulates weather and growth in the U.S. Midwest.
+The weather is based on historical data from Princeton Missouri
+
+### Central France
+
+This GEO mod simulates weather and growth in Central France.
+The weather is based on historical data from Orleans, France
+
+### Northern Sweden
+
+This is an example GEO mod, for creating a weather and growth experience similar to any place on earth.
+(As long as this place is above the equator)
+
+### Estancie Lapacho
+
+*NOTE*: This map is is on the southern hemisphere. The GrowthTransitions are season based, and thus:
+- GT1-3, Spring is Sept-Nov
+- GT4-6, Summer is Dec-Feb
+- GT7-9, Autumn is March-May
+- GT10-12, Winter is June-Aug
+
+### Snowy Lands
+
+Do you want just snow, a lot of snow?
+
+Play like you are on holiday in a snowy winterland! Snow almost everyday, no growth at all.

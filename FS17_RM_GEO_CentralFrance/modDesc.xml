@@ -34,6 +34,12 @@ Il clima di Beauceron è relativamente stabile, oceanico degradato e asciutto. Q
 È necessaria l'ultima versione del mod Seasons.]]></it>
     </description>
 
+    <credits><![CDATA[
+## Translations
+
+German - Amadeo
+French - Farmer1602]]></cdata>
+
     <iconFilename>icon.dds</iconFilename>
 
     <multiplayer supported="true"/>
