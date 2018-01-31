@@ -1,13 +1,8 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– DAYLIGHT DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Daylight adjustments
-–– Authors:  Rahkiin
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <daylight>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>Rahkiin</contributors>
+
     <latitude>70</latitude>
 </daylight>

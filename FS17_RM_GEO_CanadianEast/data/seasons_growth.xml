@@ -1,14 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– GROWTH DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Data for new growth system
-–– Authors:  reallogger, theSeb
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <growth>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>reallogger, theSeb</contributors>
+
     <defaultFruits>
         <defaultFruit fruitName="barley" maxSprayGrowthState="4"/>
         <defaultFruit fruitName="wheat" maxSprayGrowthState="4"/>

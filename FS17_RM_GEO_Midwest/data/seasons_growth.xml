@@ -1,15 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– GROWTH DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Midwest growth data based on https://usda.mannlib.cornell.edu/usda/nass/planting/uph97.pdf
-–– Authors:  theSeb
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
-
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
-<growth overwrite="true"> <!--Leave as false, if you are only appending new fruits. If set to true, you must make sure to define the growth for all fruits. use growth.xml as a template -->
+<growth overwrite="true">
+    <annotation>Copyright (c) Realismus Modding, 2017-2018. Based on https://usda.mannlib.cornell.edu/usda/nass/planting/uph97.pdf</annotation>
+    <contributors>theSeb</contributors>
+
     <defaultFruits>
         <defaultFruit fruitName="barley" maxSprayGrowthState="4" />
         <defaultFruit fruitName="wheat" maxSprayGrowthState="4" />

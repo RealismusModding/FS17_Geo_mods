@@ -1,15 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose: Weather data for South Australia GEO
-–– 	        based on weather in Adelaide
-–– Author:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018. Based on Adelaide</annotation>
+    <contributors>reallogger</contributors>
+
     <startValues>
         <soilTemp>22</soilTemp>
         <highAirTemp>30</highAirTemp>
@@ -86,7 +80,7 @@
 
     <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
     –– Daily probability for rain and clouds taken from www.weatherspark.com
-    -- https://weatherspark.com/y/143693/Average-Weather-in-Adelaide-Australia-Year-Round
+    –– https://weatherspark.com/y/143693/Average-Weather-in-Adelaide-Australia-Year-Round
     –– Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 

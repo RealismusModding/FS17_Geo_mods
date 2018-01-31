@@ -1,11 +1,3 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– GROWTH DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Growth
-–– Authors:  theSeb, Rahkiin
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <!--
@@ -17,7 +9,10 @@ Adjustments has been made to have growth fit for this particular region.
     Spring growth will naturally be delayed due to germination temps
     Grass growth for GT2 has been deleted (usually still snow covered)
 -->
-<growth overwrite="true"> <!-- overwrite is needed to have this file replace the default growth -->
+<growth overwrite="true">
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>theSeb, Rahkiin</contributors>
+
     <defaultFruits>
         <defaultFruit fruitName="barley" maxSprayGrowthState="4"/>
         <defaultFruit fruitName="wheat" maxSprayGrowthState="4"/>

@@ -1,14 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Weather for Antarctica
-–– Authors:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>reallogger</contributors>
+
     <startValues>
         <soilTemp>-10</soilTemp>
         <highAirTemp>-15</highAirTemp>

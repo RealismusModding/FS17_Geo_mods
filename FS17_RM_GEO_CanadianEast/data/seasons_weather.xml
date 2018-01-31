@@ -1,15 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose: Weather data for East Canada GEO
-–– 	        based on weather in Montreal
-–– Author:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018. Based on weather in Montreal.</annotation>
+    <contributors>reallogger</contributors>
+
     <startValues>
         <soilTemp>0</soilTemp>
         <highAirTemp>-2</highAirTemp>
@@ -86,7 +80,7 @@
 
     <!--–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
     –– Daily probability for rain and clouds taken from www.weatherspark.com
-    -- https://weatherspark.com/y/25077/Average-Weather-in-Montr%C3%A9al-Canada-Year-Round
+    –– https://weatherspark.com/y/25077/Average-Weather-in-Montr%C3%A9al-Canada-Year-Round
     –– Probability distribution parameters for precipitation duration processed based on data www.weatherspark.com
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 

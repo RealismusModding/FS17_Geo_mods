@@ -1,14 +1,9 @@
-<!--------------------------------------------------------------------------------------------------
--- DAYLIGHT DATA
-----------------------------------------------------------------------------------------------------
--- Purpose:  Daylight adjustments
--- Authors:  reallogger
---
--- Copyright (c) Realismus Modding, 2017
---------------------------------------------------------------------------------------------------->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<!-- Montreal, Canada -->
 
 <daylight>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>reallogger</contributors>
+
+    <!-- Montreal, Canada -->
     <latitude>45.5</latitude>
 </daylight>

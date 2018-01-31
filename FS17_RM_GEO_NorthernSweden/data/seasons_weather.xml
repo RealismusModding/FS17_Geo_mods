@@ -1,14 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Weather
-–– Authors:  baron
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>baron</contributors>
+
     <startValues>
         <soilTemp>-4</soilTemp>
         <highAirTemp>-5</highAirTemp>

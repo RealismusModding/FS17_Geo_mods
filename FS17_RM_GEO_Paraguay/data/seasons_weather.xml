@@ -1,15 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– WEATHER DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose: Weather data for Platinum DLC
-–– 	        based on weather in Concepción, Paraguay
-–– Author:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <weather>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>reallogger</contributors>
+
     <startValues>
         <soilTemp>20</soilTemp>
         <highAirTemp>22</highAirTemp>

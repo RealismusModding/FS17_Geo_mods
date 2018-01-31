@@ -1,14 +1,9 @@
-<!--––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– ANIMAL DATA
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-–– Purpose:  Data for animals for Platinum DLC
-–– Authors:  reallogger
-––
-–– Copyright (c) Realismus Modding, 2017
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 
 <animals>
+    <annotation>Copyright (c) Realismus Modding, 2017-2018</annotation>
+    <contributors>reallogger</contributors>
+
     <seasons>
         <spring>
             <properties type="cow">
