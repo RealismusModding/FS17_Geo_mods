@@ -11,6 +11,7 @@
 
     <description>
         <en><![CDATA[
+The farmer in the Canadian East enjoys both warm, humid summers, and cold, snowy winters. Perfect for proper field work and enjoying the snow.
 
 The latest version of the Seasons mod is required.]]></en>
         <de><![CDATA[
@@ -24,12 +25,12 @@ La dernière version du mod Seasons est nécessaire.]]></fr>
 
         <credits><![CDATA[
 ## Translations
-German - 
-French - 
+German -
+French -
 ## Testing
 ThaFarmer
 ]]></credits>
-    
+
     <iconFilename>icon.dds</iconFilename>
 
     <multiplayer supported="true"/>
