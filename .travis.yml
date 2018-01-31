@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '8'
+install:
+- npm install -g farmsim
+script:
+- find . -maxdepth 1 -type d \( ! -name . ! -name .git ! -name assets \) -exec bash
+  -c "cd '{}' && fs verify" \;
+notifications:
+  slack:
+    rooms:
+      secure: q2DMAsQNUIYYHridSjyneG7QrwoWl1iHM1DLViyXsx/cCmQJi3E6Xh2usd7KfMELo1C12FgKSBBS65tvSgh+XzdBAvxS6KWCo9VKBtzLnKgjA8vu5ZHo9laiU9pJ+71mcattdlxsJq0r+rtQf6is4XMk1of5Hz3PFamk0SmQMCPJIUBhnaZs6ulaAe/evp9iYcwRP3RuKDXOG96+oWmXzneBPuh3m6TXqqnEU9yHceu+LPyd9IkFilqSxCar2tZzuTT2cjbkn7KDa+lJRM3o97IBtUvCrnBRI06PDGyEYWl8APFjhqvXQAE5n2fSEgdO9JtiVf5cpC4+KKGT1p9+9V62nbLp3y4jkFPcfFCfiHeXXkpqJZwdWhqza6+1Hm9GY3oYr0Evx+oRWUl+JhRSqsLxWVBwlOdbIC9w+PmfSjRL6d391fXZC2Cam+ZK/W9KbZ0Xgdq23p/NS/9UQYw3Xcvhzzo+yeO62/CGUDqJcuX+lTUtxzlI2dcNAaCoxM3QaRyZzeCK9FuQfqsq7LRbsvgVDrl/GLeMy6CfAPdhw/LuDGwP88MDstIwBqQ9osVQhMeSFCjci4HkEZwdbQOd0ZD2IgyeBRDES0bsmVQ/cObPZDk+qZZnJW3Gw9+IVq1BgIvJlFxU0BcBTZIZqbgcQB0peXa5CfE1ZCf58Rppt1I=
+    on_success: change
+    on_failure: always
+  email: false
